@@ -1,0 +1,249 @@
+---
+title: "Carbapenems, Carbapenem/β-Lactamase Inhibitor Combinations, and Aztreonam"
+author: "Russell E. Lewis, Pharm.D."
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+bibliography: carbapenems-references.bib
+csl: diagnostic-microbiology-and-infectious-disease.csl
+---
+
+## Short View Summary
+
+### Carbapenem Class
+
+- Decrease dose and/or dosing interval in renal failure
+- Avoid use with valproic acid (VPA) — one carbapenem dose results in precipitous and immediate decrease in VPA concentrations
+- Avoid in history of patients with carbapenem allergy
+- Bacterial kill is time-dependent and optimal use requires maintaining an adequate concentration of free drug over the minimum inhibitory concentration (MIC) of the organism for most of the dosing interval (*f*T>MIC 50%–100%)
+
+::: {.callout-tip}
+## Clinical Pearl
+All carbapenems share time-dependent killing pharmacodynamics. The key PK/PD target is *f*T>MIC of 50%–100% of the dosing interval. Extended or prolonged infusions can optimize this parameter for critically ill patients.
+:::
+
+### Ertapenem
+
+- **Adult dose:** 1 g IV every 24 hours via 30-minute infusion
+- **Pediatric dose (up to 12 years):** 15 mg/kg IV every 12 hours (max 1 g/day) via 30-minute infusion
+- **Adverse effects:** diarrhea, nausea, hypokalemia, infused vein complication
+- **Common uses:** diabetic foot infection, intraabdominal infection, pelvic infection, bacteremia step-down therapy, bite wounds, osteomyelitis, urinary tract infection
+- **Niche in therapy:** outpatient parenteral antimicrobial therapy (OPAT) for ESBL-producing Enterobacterales or susceptible polymicrobial infections requiring IV therapy (once-daily dosing in adults)
+
+::: {.callout-tip}
+## Clinical Pearl
+Ertapenem is extensively protein bound — use caution in patients with hypoalbuminemia (increased clearance leading to clinical failure). Minimal to no relevant in vitro activity against *Enterococcus* spp., *Pseudomonas aeruginosa*, *Acinetobacter baumannii*.
+:::
+
+### Imipenem
+
+- **Adult dose:** 0.5 g IV every 6 hours or 1 g IV every 6 to 8 hours; increase to every 6 hours for patients with cystic fibrosis; 30-minute infusion
+- **Pediatric dose (3 months to 12 years):** 15 to 25 mg/kg IV every 6 hours (max 4 g/day for severe infection and patients with cystic fibrosis); 30-minute infusion
+- **Adverse effects:** rash, hypersensitivity, seizure, diarrhea, increased serum aminotransferases
+- **Common uses:** mycobacterial infection, nocardiosis, melioidosis, neutropenic fever, cystic fibrosis pulmonary exacerbation
+- **Niche in therapy:** mycobacterial infection, nocardiosis, mixed gram-negative and *Enterococcus* spp. infections
+
+::: {.callout-warning}
+## Important
+Imipenem has decreased infusion stability compared with other β-lactams, increased likelihood of adverse events (including seizures), and more frequent dosing interval compared with other carbapenems, limiting clinical use for gram-negative bacteria. It is administered with cilastatin, which inhibits the renal dehydropeptidase (DHP-I) enzyme that degrades imipenem; dosing is based on the imipenem component alone.
+:::
+
+### Meropenem
+
+- **Adult dose:** 1 to 2 g IV every 8 hours (consider extended infusion over 3 hours for serious infections)
+- **Pediatric dose:** 40 mg/kg IV every 8 hours for meningitis (max 6 g/day); 30-minute infusion (consider extended infusion over 3 hours for serious infections)
+- **Adverse effects:** diarrhea, nausea/vomiting, headache, seizure
+- **Common uses:** septic shock, bacteremia, pneumonia, meningitis, neutropenic fever
+- **Niche in therapy:** ESBL-producing or class C (AmpC)-producing Enterobacterales, *Pseudomonas* spp. (if susceptible), susceptible polymicrobial infections requiring IV therapy
+
+::: {.callout-tip}
+## Clinical Pearl
+Meropenem is not stable as a continuous infusion but can combine total daily dose in 2 bags and infuse each over 12 hours.
+:::
+
+### Meropenem-Vaborbactam (Vabomere)
+
+- **Adult dose:** 4 g IV every 8 hours via 3-hour infusion (2 g meropenem, 2 g vaborbactam)
+- **Safety and efficacy not established in children**
+- **Adverse effects:** rash, nausea, diarrhea, headache
+- **Common uses:** complicated urinary tract infection including pyelonephritis (labeled indication), pneumonia, septic shock
+- **Niche in therapy:** infections by *Klebsiella pneumoniae* carbapenemase (KPC)-producing strains
+
+::: {.callout-tip}
+## Clinical Pearl
+Dose adjustments are based on the Modification of Diet in Renal Disease formula; vaborbactam unlikely to enhance in vitro activity against *P. aeruginosa* compared with meropenem alone unless a carbapenemase is present.
+:::
+
+### Imipenem-Relebactam (Recarbrio)
+
+- **Adult dose:** 1.25 g IV every 6 hours via 30-minute infusion
+- **Safety and efficacy not established in children**
+- **Adverse effects:** anemia, increased serum aminotransferases, rash, hypokalemia, diarrhea, seizure
+- **Common uses:** intraabdominal infection, urinary tract infection, pneumonia
+- **Niche in therapy:** difficult-to-treat *P. aeruginosa*
+
+::: {.callout-tip}
+## Clinical Pearl
+Relebactam is likely to enhance in vitro activity against *P. aeruginosa* compared with imipenem alone through inhibition of AmpC. Dose in normal renal function is 500 mg imipenem + 500 mg cilastatin + 250 mg relebactam (indicated as 1.25 g per packaging).
+:::
+
+### Aztreonam
+
+- **Adult dose:** 2 g IV every 8 hours (consider extended infusion over 3 hours for serious infections)
+- **Pediatric dose:** 30 mg/kg IV every 6 to 8 hours (max 120 mg/kg/day); a higher dose may be used for patients with cystic fibrosis
+- **Adverse effects:** rash, diarrhea, increased serum aminotransferases, neutropenia, phlebitis
+- **Common uses:** patients with severe β-lactam allergy as monotherapy or in combination with ceftazidime-avibactam for treatment of infections due to metallo-β-lactamase-producing strains
+- **Niche in therapy:** treatment of infections by metallo-β-lactamase-producing strains
+
+::: {.callout-important}
+## Key Point
+Aztreonam has no in vitro activity against anaerobic organisms or any gram-positive pathogen. It uses a monobactam ring rather than a β-lactam ring structure. It has a similar side chain to ceftazidime and cefiderocol.
+:::
+
+## Carbapenems
+
+Three carbapenems — ertapenem, imipenem, and meropenem — are available for clinical use in the United States and are also the most commonly used carbapenems worldwide. Additionally, several other carbapenems including doripenem, panipenem, tebipenem, and biapenem are available outside the United States. Carbapenems display in vitro activity against a broad range of gram-positive and gram-negative aerobic and anaerobic bacteria because of their efficient penetration through the bacterial outer membrane, high affinity for multiple penicillin-binding proteins (PBPs), and stability against most β-lactamases, including class A extended-spectrum β-lactamases (ESBLs) and class C β-lactamases (AmpCs).
+
+### Chemistry
+
+Carbapenems are derivatives of thienamycin, an antibiotic produced by the soil organism *Streptomyces cattleya*. They differ from penicillins by a carbon atom replacing the sulfur at position 1 and a double bond between C2 and C3 in the five-membered thiazolidine ring (see @fig-structure). The *trans*-1α-hydroxyethyl side chain in the *trans*-configuration at C6 confers the excellent stability against ESBLs and AmpC β-lactamases, which is associated with the broad spectrum of activity of carbapenems [@Zhanel2007].
+
+Thienamycin was chemically too unstable, which prompted the development of its *N*-formimidoyl derivative imipenem. However, imipenem is degraded in vivo by mammalian renal dehydropeptidase (DHP-I) and must be coadministered with cilastatin, a selective antagonist of this enzyme. Meropenem and ertapenem differ from imipenem by having a 1β-methyl, 2-thiopyrrolidinyl substituent at C2. The 1β-methyl constituent is believed to provide stability to DHP-I, which allows them to be administered without cilastatin, unlike imipenem.
+
+<!-- IMAGE NEEDED: Figure 22.1 - Core structure and substituents for carbapenem antibiotics showing thienamycin, imipenem, meropenem, ertapenem, and doripenem R1/R2 groups -->
+
+### Mechanism of Action
+
+Carbapenems, like all β-lactam antibiotics, inhibit cell wall synthesis by binding to most PBPs. Although variations exist depending on the specific agent, carbapenems preferentially bind to PBPs 1a, 1b, 2, and 4 and to a lesser extent PBP3, which is the primary target of aminopenicillins and cephalosporins. The affinity of carbapenems to multiple PBPs of various bacteria contributes to the broad spectrum of activity of these agents. Carbapenems traverse the outer membrane of gram-negative bacteria through specific outer membrane proteins (OMPs) to reach the periplasmic space.
+
+### Resistance
+
+Resistance to carbapenems is mediated by one or a combination of the following mechanisms: (1) production of β-lactamase enzyme(s) that hydrolyzes carbapenems; (2) diminished permeability (i.e., less drug available inside the cell) due to impaired expression of certain OMPs; (3) efflux of drug across the outer membrane; and (4) production of an altered or low-affinity target, which is more relevant in gram-positive bacteria but increasingly reported for gram-negative organisms as well [@Ma2022].
+
+A single mechanism of resistance may not be sufficient to cause a clinically relevant degree of resistance to carbapenems for most gram-negative bacteria; frank resistance often occurs through an interplay involving β-lactamase production, impaired permeability, and enhanced efflux.
+
+#### β-Lactamase Production
+
+Production of β-lactamase enzyme(s) that confers resistance to carbapenems is observed most commonly in gram-negative bacteria. Carbapenems are readily hydrolyzed by Ambler class B β-lactamases, which are zinc-dependent metalloenzymes, and no clinically available β-lactamase inhibitor (BLI) compound (i.e., sulbactam, clavulanic acid, tazobactam, avibactam, relebactam, vaborbactam) prevents this hydrolysis [@Bush2020]. Some lactose-nonfermenting species, including *Stenotrophomonas maltophilia* and *Elizabethkingia meningoseptica*, are intrinsically resistant to carbapenems due to metallo-β-lactamase production.
+
+Additionally, several Ambler class A β-lactamases hydrolyze carbapenems (i.e., carbapenemases); however, carbapenems are stable to hydrolysis by the majority of class A and class C β-lactamases (e.g., ESBLs, AmpC enzymes). In particular, *Klebsiella pneumoniae* carbapenemases (KPCs) have emerged as an important carbapenem resistance determinant in gram-negative bacteria worldwide, mostly in *K. pneumoniae* [@Nordmann2011]. Ambler class D oxacillinase β-lactamases (OXAs) that hydrolyze carbapenems are also found frequently in *Acinetobacter baumannii* and are emerging in Enterobacterales in certain geographic areas [@Nordmann2011].
+
+#### Decreased Permeability and Efflux
+
+Decreased drug permeability via downregulated production or absence of OMP OprD is a major contributor to carbapenem resistance in *Pseudomonas aeruginosa*, particularly when combined with β-lactamase production or efflux [@Trias1990; @Satake1990]. Imipenem is the preferred substrate of OprD and is affected most, whereas the effect of the lack of OprD on resistance is less pronounced for meropenem [@Davies2011; @Livermore1992]. Likewise, decreased expression of OmpK35 and OmpK36 for *K. pneumoniae* and OmpC and OmpF for *Enterobacter* spp. has been associated with carbapenem resistance [@Davies2011; @Yigit2002; @Doumith2009; @Martinez-Martinez1999].
+
+Meropenem, but not imipenem, are substrates of the tripartite multidrug efflux system MexA-MexB-OprM in *P. aeruginosa* [@Kohler1999; @Masuda2000]. Here, MexB is the cytoplasmic protein, OprM is the outer membrane component forming channels, and MexA is the membrane fusion protein linking the two membrane proteins. Upregulation of this efflux system augments resistance to meropenem.
+
+#### Altered PBP Targets
+
+Production of a low-affinity PBP may mediate β-lactam class resistance and is the main mechanism of carbapenem resistance in gram-positive bacteria. Examples include PBP2a in oxacillin-resistant staphylococci [@Fuda2004] and PBP5 in *Enterococcus faecium* [@Hujer2005]. Approximately 40% to 50% of *Staphylococcus aureus* clinical strains are resistant to oxacillin, and by extension to carbapenems, whereas 60% to 80% of *E. faecium* clinical strains are resistant to ampicillin, and by extension to carbapenems, due to low-affinity PBPs [@Weiner-Lastinger2020].
+
+### Carbapenem-Resistant Enterobacterales
+
+Increasing incidence of carbapenem-resistant Enterobacterales, including those producing carbapenemases and non-carbapenemase-mediated resistance via porin mutations, ESBL or AmpC production, and less commonly, efflux, has aroused concern about erosion of utility for this important class of antibacterial agents [@Nordmann2011]. Equally concerning is the difficulty encountered in detecting carbapenem-resistant Enterobacterales in the routine diagnostic laboratory, particularly in community and critical access locations.
+
+In 2011, the Clinical and Laboratory Standards Institute (CLSI) decreased the carbapenem breakpoints of Enterobacterales fourfold for imipenem, meropenem, and ertapenem [@CLSI2011]. This change was made to accommodate carbapenem resistance mechanisms that were undetected at the higher 2010 breakpoints. The revised breakpoints negate the need to perform phenotypic carbapenemase detection tests (e.g., modified Carbapenem Inactivation Method, Carba NP test) unless warranted for epidemiologic and infection control purposes. However, confirming the presence of carbapenemase genes may still be important to guide treatment decisions regardless of pathogen minimum inhibitory concentration (MIC); this is a topic of great clinical debate.
+
+### Carbapenem-β-Lactamase Inhibitor Combinations
+
+Two carbapenem-BLI combination antibiotics were recently developed to combat the increasing incidence of carbapenem-resistant Enterobacterales: meropenem-vaborbactam (2017) and imipenem-relebactam (2019) [@Zhanel2018].
+
+Vaborbactam is a non-β-lactam, cyclic boronic acid BLI. Relebactam is a non-β-lactam, bicyclic diazabicyclooctane BLI. Both BLIs inhibit Ambler class A enzymes including ESBLs and KPC carbapenemases and class C (AmpC) β-lactamases, potentially restoring activity of the parent carbapenem compounds against pathogens harboring enzymes that would confer resistance (i.e., KPC). They do not inhibit class B (metallo-β-lactamase) or class D (e.g., OXA-48-like) carbapenemases.
+
+Vaborbactam was uniquely designed to bind potently to KPC, making meropenem-vaborbactam a preferred agent for the treatment of infections due to KPC-producing strains [@Tamma2023]. Relebactam inhibits KPC in vitro, but clinical data are lacking for its use for these infections. Rather, imipenem-relebactam's role in therapy has emerged for the treatment of difficult-to-treat *P. aeruginosa*, because AmpC enzyme production appears to play a greater role in resistance to imipenem versus meropenem.
+
+### Antibacterial Activity
+
+The carbapenems have similar antibacterial spectra [@Fritsche2009; @Jones2009]. All have excellent in vitro activity against gram-positive cocci in general (see @tbl-activity). For *Streptococcus pneumoniae*, the MICs are less than 0.03 μg/mL for penicillin-susceptible strains and around 0.5 μg/mL for penicillin-resistant strains, which are achievable human exposures when administering package insert doses. β-Hemolytic streptococci are exquisitely susceptible to carbapenems.
+
+Oxacillin-susceptible strains of *S. aureus* and coagulase-negative staphylococci are inhibited at carbapenem concentrations of less than 0.5 μg/mL, but oxacillin-resistant strains are highly resistant to currently available carbapenems. *Enterococcus faecalis* is typically susceptible to imipenem, with MICs of 2 μg/mL or less, but is more resistant to ertapenem and meropenem. None of the carbapenems is active against *E. faecium* except for rare strains that are susceptible to ampicillin.
+
+*Neisseria gonorrhoeae* and *Neisseria meningitidis* are highly susceptible to carbapenems, with MICs typically less than 0.1 μg/mL. Most ceftriaxone-resistant *N. gonorrhoeae* remain susceptible to ertapenem, although resistance is increasing globally [@Unemo2012; @Li2022].
+
+MICs of *Haemophilus influenzae* are 0.1 μg/mL or less for ertapenem and meropenem and 1 μg/mL or less for imipenem, including β-lactamase-producing strains. Most Enterobacterales are inhibited by imipenem at concentrations of 1 μg/mL (the current susceptibility breakpoint) or less, whereas *Morganella*, *Providencia*, and *Proteus* strains have higher MIC values and therefore the CLSI does not recommend breakpoints for these pathogens for imipenem; relebactam does not restore activity against these pathogens. Corresponding MICs of ertapenem and meropenem are typically 0.1 μg/mL or less, including for strains producing ESBLs.
+
+KPC-producing *K. pneumoniae* strains are typically resistant to all carbapenems, with MICs of 8 μg/mL or greater. However, KPC-producing *Escherichia coli* are inhibited at lower carbapenem concentrations, and therefore many have MICs between 0.5 and 4 μg/mL; the lower end of this range would be considered susceptible based on current breakpoints. Likewise, meropenem and imipenem MICs for KPC-producing *Enterobacter cloacae* complex tend to be lower than those for *K. pneumoniae*.
+
+::: {.callout-note}
+## Anaerobic Activity
+Ertapenem and meropenem have excellent in vitro activity against most clinically relevant anaerobes, including *Bacteroides fragilis* group and *Clostridium* spp. Imipenem also has good anaerobic activity but may have slightly higher MICs against some *Bacteroides* strains. All carbapenems lack activity against *Clostridioides difficile* [@Goldstein2002].
+:::
+
+### Pharmacokinetics
+
+Carbapenems are administered parenterally. Pharmacokinetic properties vary among the three agents:
+
+**Meropenem** has the most well-characterized pharmacokinetic profile [@Moon1997]. It distributes well into most body sites including the cerebrospinal fluid (CSF), which is why it is the carbapenem of choice for meningitis. Protein binding is approximately 2%, which means nearly all circulating drug is free. The half-life is approximately 1 hour with normal renal function.
+
+**Imipenem** has similar distribution to meropenem but is coadministered with cilastatin to prevent renal DHP-I degradation [@Drusano1986]. Protein binding is approximately 20%. The half-life is approximately 1 hour. Imipenem also penetrates the CSF but has a higher seizure risk compared with meropenem in the meningitis setting.
+
+**Ertapenem** has significantly higher protein binding (~92%–95%) and a longer half-life (~4 hours), enabling once-daily dosing [@Majumdar2002]. However, the high protein binding is a double-edged sword — in patients with hypoalbuminemia, free drug concentrations increase, leading to faster clearance and potentially subtherapeutic levels [@Zusman2015].
+
+::: {.callout-important}
+## Pharmacodynamic Optimization
+Extended-infusion meropenem (3-hour infusion) is recommended for serious infections to maximize the time above MIC (fT>MIC). This is particularly important for organisms with elevated MICs [@Nicolau2008; @Abdul-Aziz2020].
+:::
+
+### Pharmacodynamics of Carbapenem-BLI Combinations
+
+For meropenem-vaborbactam, the PK/PD driver of vaborbactam efficacy is %fT>CT (percentage of time the free drug concentration exceeds a threshold concentration), with a target threshold concentration of approximately 8 μg/mL [@Griffith2018].
+
+For imipenem-relebactam, the PK/PD driver of relebactam efficacy is AUC/MIC ratio. The pharmacodynamics of relebactam in combination with imipenem have been evaluated in murine thigh models, demonstrating restoration of imipenem activity against KPC-producing and AmpC-producing organisms [@Mavridou2015].
+
+### Adverse Effects
+
+#### Seizures
+
+All carbapenems can lower the seizure threshold, but the risk varies by agent. Imipenem has the highest seizure risk (reported rates of 1%–3% in general populations, up to 10% in patients with predisposing factors), followed by meropenem and ertapenem [@Miller2011]. Risk factors include renal impairment, central nervous system pathology, and high doses. Dose adjustment for renal function is critical.
+
+::: {.callout-warning}
+## Valproic Acid Interaction
+Carbapenems cause a precipitous and often irreversible decrease in valproic acid concentrations within 24 hours of coadministration. The mechanism involves increased glucuronidation and inhibition of intestinal absorption of valproate. This interaction is a class effect — all carbapenems should be avoided in patients receiving valproic acid [@Mori2007].
+:::
+
+#### Allergic Cross-Reactivity
+
+Carbapenems share the β-lactam core structure with penicillins and cephalosporins. However, the cross-reactivity between penicillins and carbapenems is low (~1%), and carbapenems can generally be used safely in patients with a history of penicillin allergy, although caution is warranted in patients with a history of severe (anaphylactic) reactions [@Frumin2009].
+
+::: {.callout-note}
+## Aztreonam and Allergy
+Aztreonam, as a monobactam, has a different ring structure and does not cross-react with penicillins, cephalosporins, or carbapenems. It is the safest β-lactam option for patients with severe β-lactam allergy, with the notable exception that it shares a side chain with ceftazidime — patients with ceftazidime allergy may also react to aztreonam.
+:::
+
+### Clinical Applications
+
+#### ESBL-Producing Enterobacterales
+
+Carbapenems remain the agents of choice for serious infections due to ESBL-producing Enterobacterales. The MERINO trial demonstrated that meropenem was superior to piperacillin-tazobactam for definitive treatment of bloodstream infections caused by ceftriaxone-resistant *E. coli* or *K. pneumoniae* [@Harris2018]. Ertapenem may be used for less severe infections or step-down therapy, with the advantage of once-daily dosing facilitating OPAT.
+
+#### KPC-Producing Enterobacterales
+
+Meropenem-vaborbactam is preferred for infections due to KPC-producing organisms based on IDSA guidance [@Tamma2023; @Shields2020]. Ceftazidime-avibactam is an alternative. Imipenem-relebactam has activity against KPC-producers in vitro but less clinical experience is available.
+
+#### Difficult-to-Treat *P. aeruginosa*
+
+Imipenem-relebactam has emerged as a key agent for difficult-to-treat *P. aeruginosa*, where AmpC production drives resistance to imipenem [@Tamma2023; @Reyes2023]. Relebactam restores imipenem activity by inhibiting AmpC. For *P. aeruginosa* with MBL production, aztreonam-based combinations (aztreonam + ceftazidime-avibactam) are recommended.
+
+#### Metallo-β-Lactamase Producers
+
+No currently available BLI inhibits metallo-β-lactamases. Aztreonam is stable to MBL hydrolysis and, when combined with ceftazidime-avibactam (which provides avibactam to protect aztreonam from serine β-lactamases), offers coverage against MBL-producing Enterobacterales [@Ma2022].
+
+## Aztreonam
+
+Aztreonam is the only clinically available monobactam. Its unique ring structure — a monocyclic β-lactam rather than the bicyclic structure of penicillins, cephalosporins, and carbapenems — confers minimal cross-allergenicity with other β-lactam classes.
+
+### Spectrum of Activity
+
+Aztreonam's spectrum is limited exclusively to aerobic gram-negative bacteria. It has no activity against gram-positive organisms or anaerobes. It has good activity against most Enterobacterales and *P. aeruginosa*, similar to aminoglycosides in its gram-negative focus. It is stable to hydrolysis by metallo-β-lactamases (Ambler class B), which makes it uniquely valuable in the treatment of MBL-producing organisms.
+
+### Clinical Role
+
+Aztreonam is primarily used in two clinical scenarios: (1) as a β-lactam option for patients with severe penicillin/cephalosporin/carbapenem allergy who need gram-negative coverage, and (2) in combination with ceftazidime-avibactam for treatment of infections due to MBL-producing Enterobacterales, where avibactam protects aztreonam from non-MBL β-lactamases while aztreonam resists MBL hydrolysis.
+
+## References {.unnumbered}
+
+::: {#refs}
+:::
