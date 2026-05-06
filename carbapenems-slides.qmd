@@ -7,22 +7,27 @@ format:
     theme: custom.scss
     slide-number: true
     transition: fade
+bibliography: references.bib
 ---
 
-# Introduction to Carbapenems
+# Introduction to carbapenems {background-color="#b20e10"}
 
-## Chapter Overview
+## Chapter overview
+
+<br>
 
 - Carbapenems: ertapenem, imipenem, meropenem
 - Carbapenem-BLI combinations: meropenem-vaborbactam, imipenem-relebactam
 - Monobactam: aztreonam
 - Chemistry, mechanism, resistance, PK/PD, clinical applications
 
-::: {.notes}
+::: notes
 This lecture covers Chapter 22 from McCreary & Doi. We'll work through the pharmacology of each agent, then focus on resistance mechanisms and clinical decision-making. The carbapenem-BLI combinations are particularly important given the rise of carbapenem-resistant Enterobacterales globally.
 :::
 
-## Learning Objectives
+## Learning objectives
+
+<br>
 
 - Describe the mechanism of action and structure-activity relationships of carbapenems
 - Compare the spectrum of activity, pharmacokinetics, and clinical uses of ertapenem, imipenem, and meropenem
@@ -31,13 +36,11 @@ This lecture covers Chapter 22 from McCreary & Doi. We'll work through the pharm
 - Apply PK/PD principles to optimize carbapenem dosing
 - Define the unique role of aztreonam in β-lactam allergy and MBL-producing infections
 
-::: {.notes}
-These objectives align with both the undergraduate medical curriculum and postgraduate ID specialty training at the University of Padova.
-:::
-
-# Chemistry
+# Chemistry {background-color="#b20e10"}
 
 ## Carbapenem Core Structure
+
+<br>
 
 - Derivatives of thienamycin (*Streptomyces cattleya*)
 - Differ from penicillins: carbon replaces sulfur at position 1, double bond between C2 and C3
@@ -45,14 +48,16 @@ These objectives align with both the undergraduate medical curriculum and postgr
 - The broad spectrum of carbapenems is directly linked to this structural stability
 
 ::: aside
-Zhanel et al., *Drugs*, 2007
+[@zhanel2007]
 :::
 
-::: {.notes}
+::: aside
 The key structural feature is the trans-hydroxyethyl group at C6 — this is what makes carbapenems resistant to hydrolysis by most serine β-lactamases that easily destroy penicillins and cephalosporins.
 :::
 
 ## From Thienamycin to Clinical Agents
+
+<br>
 
 - Thienamycin: too chemically unstable for clinical use
 - **Imipenem:** *N*-formimidoyl derivative of thienamycin
@@ -61,7 +66,7 @@ The key structural feature is the trans-hydroxyethyl group at C6 — this is wha
   - Stable to DHP-I → no cilastatin needed
 - **Doripenem:** available outside the US
 
-::: {.notes}
+::: notes
 This is a critical distinction for clinical practice. Imipenem must always be given with cilastatin. If you see "imipenem" on an order, cilastatin is always included. Meropenem and ertapenem don't need this co-administration.
 :::
 
@@ -71,16 +76,20 @@ This is a critical distinction for clinical practice. Imipenem must always be gi
 
 ## PBP Binding Profile
 
+<br>
+
 - Carbapenems inhibit cell wall synthesis by binding to PBPs
 - Preferential binding: PBPs 1a, 1b, 2, and 4
 - Lesser binding to PBP3 (the main target of aminopenicillins and cephalosporins)
 - Multi-PBP binding → broad spectrum of activity
 
-::: {.notes}
+::: notes
 The binding to PBP2 is particularly important — PBP2 is responsible for maintaining cell shape. Inhibition of PBP2 leads to the characteristic spheroplast formation seen with carbapenem exposure. This multi-target binding is part of why carbapenems maintain activity against organisms resistant to other β-lactams.
 :::
 
 ## Outer Membrane Penetration
+
+<br>
 
 - Carbapenems cross the gram-negative outer membrane through specific OMPs
 - **OprD** (*P. aeruginosa*): imipenem's primary entry portal
@@ -88,18 +97,20 @@ The binding to PBP2 is particularly important — PBP2 is responsible for mainta
 - **OmpC/OmpF** (*Enterobacter* spp.)
 - Loss of these porins contributes to resistance
 
-::: {.notes}
+::: notes
 Understanding which porins each carbapenem uses is essential for understanding resistance. Imipenem depends heavily on OprD in Pseudomonas, whereas meropenem can use alternative porins. This has direct clinical implications for empiric therapy choices.
 :::
 
 ## Time-Dependent Killing
 
+<br>
+
 - Carbapenems display **time-dependent bactericidal activity**
-- Key PK/PD parameter: ***f*T>MIC**
+- Key PK/PD parameter: ***f*****T\>MIC**
 - Target: 50%–100% of the dosing interval
 - Clinical implication: extended or prolonged infusions optimize this target
 
-::: {.notes}
+::: notes
 This is a fundamental PK/PD concept for all β-lactams. For carbapenems specifically, we want free drug concentration to exceed the MIC for at least 40-50% of the dosing interval (and some experts advocate for even higher targets in critically ill patients). Extended infusion strategies directly address this.
 :::
 
@@ -107,36 +118,42 @@ This is a fundamental PK/PD concept for all β-lactams. For carbapenems specific
 
 ## Overview of Carbapenem Resistance
 
+<br>
+
 Four principal mechanisms:
 
-1. **β-Lactamase production** (most common in gram-negatives)
-2. **Diminished permeability** (porin loss/modification)
-3. **Efflux pump upregulation**
-4. **Altered PBP targets** (primarily gram-positives)
+1.  **β-Lactamase production** (most common in gram-negatives)
+2.  **Diminished permeability** (porin loss/modification)
+3.  **Efflux pump upregulation**
+4.  **Altered PBP targets** (primarily gram-positives)
 
 ::: aside
-Ma et al., *Int J Antimicrob Agents*, 2022
+[@ma2022]
 :::
 
-::: {.notes}
+::: notes
 In clinical practice, resistance is usually multifactorial — a single mechanism rarely confers high-level resistance by itself. The combination of β-lactamase production with porin loss and/or efflux upregulation is the most common scenario for frank carbapenem resistance in gram-negatives.
 :::
 
 ## β-Lactamase-Mediated Resistance
+
+<br>
 
 - **Class B (Metallo-β-lactamases/MBLs):** Zinc-dependent; hydrolyze ALL carbapenems; NO clinically available BLI inhibits them
 - **Class A (KPC carbapenemases):** Serine-based; *K. pneumoniae* carbapenemase is the most important globally
 - **Class D (OXA-type):** Found frequently in *A. baumannii*; emerging in Enterobacterales
 
 ::: aside
-Bush & Bradford, *Clin Microbiol Rev*, 2020; Nordmann et al., *Emerg Infect Dis*, 2011
+[@bush2020; @nordmann2011]
 :::
 
-::: {.notes}
+::: notes
 The Ambler classification is essential here. Class B (MBLs) are the most challenging because no approved BLI works against them — this is where aztreonam combinations become critical. KPCs are inhibited by avibactam, vaborbactam, and relebactam, giving us treatment options.
 :::
 
 ## Class A Carbapenemases: KPC
+
+<br>
 
 - *Klebsiella pneumoniae* carbapenemase (KPC)
 - Most important carbapenem resistance determinant worldwide
@@ -145,14 +162,16 @@ The Ambler classification is essential here. Class B (MBLs) are the most challen
 - **Not** inhibited by: clavulanic acid, tazobactam, sulbactam
 
 ::: aside
-Nordmann et al., *Emerg Infect Dis*, 2011
+[@nordmann2011]
 :::
 
-::: {.notes}
+::: notes
 KPC was first identified in North Carolina in 1996 and has since spread globally. It's plasmid-mediated, which facilitates rapid dissemination. The ability of newer BLIs like avibactam and vaborbactam to inhibit KPC has been transformative for treatment of these infections.
 :::
 
 ## Class B: Metallo-β-Lactamases
+
+<br>
 
 - Zinc-dependent enzymes (NDM, VIM, IMP)
 - Hydrolyze ALL β-lactams **except aztreonam**
@@ -160,11 +179,13 @@ KPC was first identified in North Carolina in 1996 and has since spread globally
 - Treatment strategy: aztreonam + ceftazidime-avibactam
 - Intrinsic MBLs in *S. maltophilia*, *E. meningoseptica*
 
-::: {.notes}
+::: notes
 The key teaching point is: aztreonam is stable against MBLs due to its monobactam structure. But aztreonam alone often fails because MBL-producers frequently co-produce other β-lactamases (like ESBLs or AmpC). The combination with ceftazidime-avibactam provides the avibactam to cover those other enzymes while aztreonam resists the MBL.
 :::
 
 ## Class D: OXA-type Carbapenemases
+
+<br>
 
 - Found predominantly in *Acinetobacter baumannii*
 - OXA-48-like enzymes emerging in Enterobacterales
@@ -172,14 +193,16 @@ The key teaching point is: aztreonam is stable against MBLs due to its monobacta
 - Limited treatment options
 
 ::: aside
-Nordmann et al., *Emerg Infect Dis*, 2011
+[@nordmann2011]
 :::
 
-::: {.notes}
+::: notes
 OXA-48-like enzymes are a particular concern in certain geographic regions, especially the Mediterranean, Middle East, and parts of India. They often produce only modest increases in carbapenem MICs, making detection difficult. Neither vaborbactam nor relebactam has meaningful activity against OXA-48.
 :::
 
 ## Porin-Mediated Resistance in *P. aeruginosa*
+
+<br>
 
 - **OprD loss:** Major contributor to carbapenem resistance
 - Imipenem: OprD is the primary entry portal → most affected by OprD loss
@@ -187,14 +210,16 @@ OXA-48-like enzymes are a particular concern in certain geographic regions, espe
 - OprD loss often occurs during therapy
 
 ::: aside
-Trias & Nikaido, *Antimicrob Agents Chemother*, 1990; Kohler et al., *Antimicrob Agents Chemother*, 1999
+[@trias1990; @kohler1999]
 :::
 
-::: {.notes}
+::: notes
 This is a common clinical scenario — a patient on imipenem for Pseudomonas develops resistance during treatment due to OprD downregulation. Meropenem may still retain activity in some cases because it uses alternative porins. This differential susceptibility is the basis for the recommendation to use meropenem rather than imipenem as empiric therapy for serious Pseudomonas infections.
 :::
 
 ## Efflux-Mediated Resistance
+
+<br>
 
 - **MexA-MexB-OprM** system in *P. aeruginosa*
 - Meropenem is a substrate; **imipenem is NOT**
@@ -202,14 +227,16 @@ This is a common clinical scenario — a patient on imipenem for Pseudomonas dev
 - Combined with OprD loss → high-level resistance to both agents
 
 ::: aside
-Kohler et al., *Antimicrob Agents Chemother*, 1999; Masuda et al., *Antimicrob Agents Chemother*, 2000
+[@kohler1999; @masuda2000]
 :::
 
-::: {.notes}
+::: notes
 This is an interesting differential: imipenem resistance in Pseudomonas is driven by OprD loss, while meropenem resistance is driven by both OprD loss AND efflux upregulation. This is why you can sometimes see discordant susceptibility — resistant to imipenem but susceptible to meropenem, or vice versa.
 :::
 
 ## Porin-Mediated Resistance in Enterobacterales
+
+<br>
 
 - **OmpK35/OmpK36** loss in *K. pneumoniae*
 - **OmpC/OmpF** loss in *Enterobacter* spp.
@@ -217,14 +244,16 @@ This is an interesting differential: imipenem resistance in Pseudomonas is drive
 - Contributes to resistance even without carbapenemase production
 
 ::: aside
-Davies et al., *J Antimicrob Chemother*, 2011; Yigit et al., *Antimicrob Agents Chemother*, 2002
+[@davies2011; @yigit2002]
 :::
 
-::: {.notes}
+::: notes
 Non-carbapenemase-mediated resistance in Enterobacterales is increasingly recognized. These organisms may test "resistant" but are not true carbapenemase producers. Understanding this distinction matters for infection control (no need for the same aggressive isolation measures) and for treatment (these organisms may respond to carbapenem-BLI combinations or high-dose carbapenem therapy).
 :::
 
 ## PBP-Mediated Resistance in Gram-Positives
+
+<br>
 
 - Low-affinity PBP targets → class-wide β-lactam resistance
 - **PBP2a** in MRSA → carbapenem resistance
@@ -233,10 +262,10 @@ Non-carbapenemase-mediated resistance in Enterobacterales is increasingly recogn
 - 60%–80% of *E. faecium* strains are ampicillin-resistant
 
 ::: aside
-Fuda et al., *J Biol Chem*, 2004; Weiner-Lastinger et al., *Infect Control Hosp Epidemiol*, 2020
+[@fuda2004; @weiner2020]
 :::
 
-::: {.notes}
+::: notes
 Carbapenems have NO role in treating MRSA or vancomycin-resistant E. faecium. PBP2a has such low affinity for all β-lactams, including carbapenems, that therapeutic concentrations cannot overcome resistance.
 :::
 
@@ -244,20 +273,24 @@ Carbapenems have NO role in treating MRSA or vancomycin-resistant E. faecium. PB
 
 ## CRE: A Growing Threat
 
+<br>
+
 - Increasing incidence of CRE worldwide
 - Multiple resistance mechanisms: carbapenemases, porin mutations, ESBL/AmpC + porin loss, efflux
 - Detection challenges in routine diagnostic labs
 - 2011: CLSI decreased carbapenem breakpoints fourfold
 
 ::: aside
-Nordmann et al., *Emerg Infect Dis*, 2011; CLSI, 2011
+[@nordmann2011; @clsi2011]
 :::
 
-::: {.notes}
+::: notes
 The 2011 CLSI breakpoint change was a landmark decision. By lowering breakpoints, previously "susceptible" isolates with resistance mechanisms were reclassified, allowing clinicians to avoid treatment failures. However, this created confusion in some settings where labs were slow to adopt the new breakpoints.
 :::
 
 ## Why Breakpoints Changed
+
+<br>
 
 - Higher 2010 breakpoints missed resistance mechanisms
 - Revised breakpoints negate need for routine carbapenemase detection (mCIM, Carba NP)
@@ -266,7 +299,7 @@ The 2011 CLSI breakpoint change was a landmark decision. By lowering breakpoints
   - MBL → aztreonam + ceftazidime-avibactam
   - OXA-48 → ceftazidime-avibactam
 
-::: {.notes}
+::: notes
 This is the current state of the field — genotypic testing (molecular methods to identify specific carbapenemase genes) is increasingly important for guiding targeted therapy. The MIC alone doesn't tell you which enzyme is present, and the specific enzyme type determines the optimal treatment regimen.
 :::
 
@@ -274,8 +307,10 @@ This is the current state of the field — genotypic testing (molecular methods 
 
 ## Two New Combinations
 
+<br>
+
 | Feature | Meropenem-Vaborbactam (Vabomere) | Imipenem-Relebactam (Recarbrio) |
-|---|---|---|
+|----|----|----|
 | Approval year | 2017 | 2019 |
 | BLI class | Cyclic boronic acid | Diazabicyclooctane |
 | Inhibits KPC | Yes (potently) | Yes |
@@ -284,14 +319,16 @@ This is the current state of the field — genotypic testing (molecular methods 
 | Inhibits OXA-48 | No | No |
 
 ::: aside
-Zhanel et al., *Drugs*, 2018
+[@zhanel2018]
 :::
 
-::: {.notes}
+::: notes
 Both agents share the same gap — they don't cover metallo-β-lactamases or OXA-48-type carbapenemases. This is critical for treatment decisions. The key differentiator is their preferred clinical niche: meropenem-vaborbactam for KPC-producers and imipenem-relebactam for difficult-to-treat Pseudomonas.
 :::
 
 ## Meropenem-Vaborbactam
+
+<br>
 
 - **Dose:** 4 g IV q8h via 3-hour infusion (2 g meropenem + 2 g vaborbactam)
 - Vaborbactam designed specifically to bind KPC
@@ -300,14 +337,16 @@ Both agents share the same gap — they don't cover metallo-β-lactamases or OXA
 - Dose adjustment based on MDRD formula
 
 ::: aside
-Tamma et al., *Clin Infect Dis*, 2023; Shields et al., *Clin Infect Dis*, 2020
+[@tamma2023; @shields2020]
 :::
 
-::: {.notes}
+::: notes
 The TANGO trials established meropenem-vaborbactam for CRE infections. Shields et al. reported early clinical experience showing superiority over best available therapy for CRE bacteremia. The 3-hour infusion is important — it optimizes the PK/PD of both the meropenem and the vaborbactam.
 :::
 
 ## Imipenem-Relebactam
+
+<br>
 
 - **Dose:** 1.25 g IV q6h via 30-minute infusion (500 mg imipenem + 500 mg cilastatin + 250 mg relebactam)
 - Relebactam inhibits AmpC → restores imipenem activity vs *P. aeruginosa*
@@ -316,25 +355,27 @@ The TANGO trials established meropenem-vaborbactam for CRE infections. Shields e
 - Can also be used for KPC-producing CRE (less clinical data)
 
 ::: aside
-Tamma et al., *Clin Infect Dis*, 2023; Reyes et al., *Lancet Microbe*, 2023
+[@tamma2023; @reyes2023]
 :::
 
-::: {.notes}
+::: notes
 The key concept: AmpC production plays a bigger role in resistance to imipenem vs Pseudomonas than it does for meropenem. So adding relebactam (an AmpC inhibitor) to imipenem specifically addresses this mechanism. The POP study by Reyes et al. highlighted the global epidemiology of carbapenem-resistant Pseudomonas and the importance of knowing which resistance mechanism is present.
 :::
 
 ## PK/PD of the BLI Components
 
-- **Vaborbactam:** %fT>CT is the PK/PD driver; target threshold ~8 μg/mL
+<br>
+
+- **Vaborbactam:** %fT\>CT is the PK/PD driver; target threshold \~8 μg/mL
 - **Relebactam:** AUC/MIC ratio drives efficacy
 - Both BLIs require renal dose adjustment
 - 3-hour infusion for meropenem-vaborbactam optimizes both components
 
 ::: aside
-Griffith et al., *Antimicrob Agents Chemother*, 2018; Mavridou et al., *Antimicrob Agents Chemother*, 2015
+[@griffith2018; @mavridou2015]
 :::
 
-::: {.notes}
+::: notes
 The PK/PD of BLIs is different from the parent β-lactam. For vaborbactam, you need sustained concentrations above a threshold to protect meropenem. For relebactam, total exposure (AUC) relative to the MIC matters. This informs dosing strategies, especially in critically ill patients with altered pharmacokinetics.
 :::
 
@@ -342,21 +383,25 @@ The PK/PD of BLIs is different from the parent β-lactam. For vaborbactam, you n
 
 ## Gram-Positive Activity
 
-- *S. pneumoniae*: MIC <0.03 μg/mL (penicillin-susceptible), ~0.5 μg/mL (penicillin-resistant)
+<br>
+
+- *S. pneumoniae*: MIC \<0.03 μg/mL (penicillin-susceptible), \~0.5 μg/mL (penicillin-resistant)
 - β-Hemolytic streptococci: exquisitely susceptible
-- MSSA: MIC <0.5 μg/mL; **MRSA: resistant** (PBP2a)
+- MSSA: MIC \<0.5 μg/mL; **MRSA: resistant** (PBP2a)
 - *E. faecalis*: susceptible to imipenem (MIC ≤2); resistant to ertapenem/meropenem
 - *E. faecium*: resistant to all carbapenems (PBP5)
 
 ::: aside
-Fritsche et al., *Diagn Microbiol Infect Dis*, 2009; Jones et al., *Diagn Microbiol Infect Dis*, 2009
+[@fritsche2009; @jones2009]
 :::
 
-::: {.notes}
+::: notes
 Key clinical takeaway: if you have a mixed infection with E. faecalis AND gram-negatives, imipenem is the carbapenem of choice because it covers both. Meropenem and ertapenem won't reliably cover E. faecalis.
 :::
 
 ## Gram-Negative Activity: Enterobacterales
+
+<br>
 
 - Most inhibited at MIC ≤1 μg/mL for imipenem/meropenem
 - Ertapenem MICs typically ≤0.1 μg/mL (including ESBL-producers)
@@ -364,22 +409,26 @@ Key clinical takeaway: if you have a mixed infection with E. faecalis AND gram-n
 - KPC-producing *K. pneumoniae*: MIC ≥8 μg/mL → resistant
 - KPC-producing *E. coli*: often lower MICs (0.5–4 μg/mL)
 
-::: {.notes}
+::: notes
 The discrepancy in MICs between KPC-producing K. pneumoniae and E. coli is clinically relevant. KPC-producing E. coli may appear susceptible at current breakpoints but still harbors the resistance gene. This is one argument for genotypic testing in addition to phenotypic susceptibility testing.
 :::
 
 ## Gram-Negative Activity: Non-Fermenters
+
+<br>
 
 - *P. aeruginosa*: susceptible to imipenem and meropenem but **NOT ertapenem**
 - *A. baumannii*: variable susceptibility; OXA-type carbapenemases common
 - *S. maltophilia*: intrinsically resistant (chromosomal MBL)
 - *Burkholderia cepacia*: variable
 
-::: {.notes}
+::: notes
 Ertapenem has a critical gap in Pseudomonas coverage — this must be remembered when selecting empiric therapy. If Pseudomonas is in the differential, ertapenem is not the right carbapenem. This is a common exam question and clinical pitfall.
 :::
 
 ## Anaerobic Activity
+
+<br>
 
 - Ertapenem and meropenem: excellent anaerobic coverage
 - Broad activity against *Bacteroides fragilis* group, *Clostridium* spp.
@@ -387,26 +436,28 @@ Ertapenem has a critical gap in Pseudomonas coverage — this must be remembered
 - No carbapenem active against *Clostridioides difficile*
 
 ::: aside
-Goldstein et al., *Antimicrob Agents Chemother*, 2002
+[@goldstein2002]
 :::
 
-::: {.notes}
+::: notes
 The strong anaerobic coverage of carbapenems is one reason they are used so effectively for intraabdominal infections and diabetic foot infections. However, broad-spectrum anaerobic coverage also carries the risk of disrupting the gut microbiome and promoting C. difficile infection.
 :::
 
 ## Other Notable Activity
 
+<br>
+
 - *Neisseria gonorrhoeae*: highly susceptible; ertapenem activity against ceftriaxone-resistant strains
-- *N. meningitidis*: MIC <0.1 μg/mL
+- *N. meningitidis*: MIC \<0.1 μg/mL
 - *H. influenzae*: susceptible including β-lactamase producers
 - *Nocardia* spp.: imipenem has best activity
 - Mycobacteria: imipenem active against some NTM and *M. tuberculosis*
 
 ::: aside
-Unemo et al., *Antimicrob Agents Chemother*, 2012; Cercenado et al., *Antimicrob Agents Chemother*, 2007
+[@unemo2012; @cercenado2007]
 :::
 
-::: {.notes}
+::: notes
 The activity of ertapenem against ceftriaxone-resistant N. gonorrhoeae is generating interest as a potential treatment option for MDR gonorrhea, though more clinical data are needed. Imipenem's activity against Nocardia is a unique clinical niche — it's often included in combination regimens for serious nocardiosis.
 :::
 
@@ -414,21 +465,25 @@ The activity of ertapenem against ceftriaxone-resistant N. gonorrhoeae is genera
 
 ## Ertapenem: Key Features
 
+<br>
+
 - **Once-daily dosing** (1 g IV q24h) — ideal for OPAT
-- Long half-life (~4 hours) due to high protein binding (92%–95%)
+- Long half-life (\~4 hours) due to high protein binding (92%–95%)
 - **No activity against:** *P. aeruginosa*, *Acinetobacter*, *Enterococcus*
 - Excellent ESBL-producer coverage
 - Preferred for community-acquired polymicrobial infections
 
 ::: aside
-Majumdar et al., *Antimicrob Agents Chemother*, 2002
+[@majumdar2002]
 :::
 
-::: {.notes}
+::: notes
 Ertapenem's niche is clear: it's the carbapenem for infections where you don't need Pseudomonas or Acinetobacter coverage. Its once-daily dosing makes it the best carbapenem for outpatient therapy. Think of it as a broad-spectrum "community" carbapenem vs. meropenem/imipenem as "hospital" carbapenems.
 :::
 
 ## Ertapenem: Hypoalbuminemia Concern
+
+<br>
 
 - 92%–95% protein bound → sensitive to albumin levels
 - Hypoalbuminemia → increased free drug → faster renal clearance
@@ -436,14 +491,16 @@ Ertapenem's niche is clear: it's the carbapenem for infections where you don't n
 - Consider alternative carbapenem or TDM in ICU patients with low albumin
 
 ::: aside
-Zusman et al., *Clin Microbiol Infect*, 2015
+[@zusman2015]
 :::
 
-::: {.notes}
-The Zusman study showed increased mortality with ertapenem vs. other carbapenems in hypoalbuminemic patients. This is a real clinical concern in the ICU. If the patient has albumin <2.5 g/dL and a serious infection, meropenem is the safer choice.
+::: notes
+The Zusman study showed increased mortality with ertapenem vs. other carbapenems in hypoalbuminemic patients. This is a real clinical concern in the ICU. If the patient has albumin \<2.5 g/dL and a serious infection, meropenem is the safer choice.
 :::
 
 ## Imipenem-Cilastatin: Key Features
+
+<br>
 
 - Must be coadministered with cilastatin (DHP-I inhibitor)
 - **Most frequent dosing:** q6h (less convenient)
@@ -452,14 +509,16 @@ The Zusman study showed increased mortality with ertapenem vs. other carbapenems
 - Decreased infusion stability vs. meropenem
 
 ::: aside
-Drusano, *J Antimicrob Chemother*, 1986
+[@drusano1986]
 :::
 
-::: {.notes}
+::: notes
 Imipenem's drawbacks — frequent dosing, seizure risk, infusion instability — explain why meropenem has largely replaced it as the default carbapenem for gram-negative infections. But imipenem retains important niches: E. faecalis coverage, Nocardia, and as the backbone of imipenem-relebactam for DTR Pseudomonas.
 :::
 
 ## Imipenem: Seizure Risk
+
+<br>
 
 - Reported rates: 1%–3% general; up to 10% with risk factors
 - Risk factors: renal impairment, CNS pathology, high doses
@@ -468,43 +527,47 @@ Imipenem's drawbacks — frequent dosing, seizure risk, infusion instability —
 - Meropenem preferred when CNS infection or seizure risk exists
 
 ::: aside
-Miller et al., *Pharmacother*, 2011
+[@miller2011]
 :::
 
-::: {.notes}
+::: notes
 The seizure risk is dose-related and can be mitigated by proper renal dose adjustment. However, for CNS infections like meningitis, meropenem is the carbapenem of choice — it has better CSF penetration, lower seizure risk, and proven efficacy in this setting.
 :::
 
 ## Meropenem: Key Features
 
+<br>
+
 - **Most versatile carbapenem** for serious infections
 - Extended infusion (3 hours) optimizes PK/PD target
-- ~2% protein binding → nearly all drug is free
-- Half-life ~1 hour with normal renal function
+- \~2% protein binding → nearly all drug is free
+- Half-life \~1 hour with normal renal function
 - Good CSF penetration → carbapenem of choice for meningitis
 - Can combine total daily dose in 2 bags, infuse each over 12 hours
 
 ::: aside
-Moon et al., *Clin Infect Dis*, 1997
+[@moon1997]
 :::
 
-::: {.notes}
+::: notes
 Meropenem is the workhorse carbapenem for ICU settings. Its low protein binding means you get what you dose. Extended infusion (3 hours) is now standard practice for serious infections in many centers — this maximizes the time the drug is above the MIC.
 :::
 
 ## Meropenem: Extended Infusion Strategy
 
+<br>
+
 - Standard: 1–2 g IV q8h over 30 minutes
 - Extended: 1–2 g IV q8h over **3 hours**
-- Rationale: increases %fT>MIC from ~60% to >90% at standard dose
+- Rationale: increases %fT\>MIC from \~60% to \>90% at standard dose
 - Most beneficial for organisms with elevated MICs (4–8 μg/mL)
 - Not stable for continuous infusion — use 2 bags over 12h each as alternative
 
 ::: aside
-Nicolau, *Crit Care*, 2008; Abdul-Aziz et al., *Intensive Care Med*, 2020
+[@nicolau2008; @abdulaziz2020]
 :::
 
-::: {.notes}
+::: notes
 Extended infusion is particularly important for infections with organisms at the susceptibility breakpoint. For example, a Pseudomonas with a meropenem MIC of 4 μg/mL — standard infusion may not provide adequate time above MIC, but a 3-hour infusion will. Many hospitals have adopted this as default for all ICU patients.
 :::
 
@@ -512,28 +575,32 @@ Extended infusion is particularly important for infections with organisms at the
 
 ## PK Parameters at a Glance
 
-| Parameter | Ertapenem | Imipenem | Meropenem |
-|---|---|---|---|
-| Protein binding | 92%–95% | ~20% | ~2% |
-| Half-life (h) | ~4 | ~1 | ~1 |
-| Dosing frequency | q24h | q6–8h | q8h |
-| CSF penetration | Poor | Moderate | Good |
-| DHP-I stability | Yes | No (needs cilastatin) | Yes |
-| Renal elimination | Yes | Yes | Yes |
+<br>
 
-::: {.notes}
+| Parameter         | Ertapenem | Imipenem              | Meropenem |
+|-------------------|-----------|-----------------------|-----------|
+| Protein binding   | 92%–95%   | \~20%                 | \~2%      |
+| Half-life (h)     | \~4       | \~1                   | \~1       |
+| Dosing frequency  | q24h      | q6–8h                 | q8h       |
+| CSF penetration   | Poor      | Moderate              | Good      |
+| DHP-I stability   | Yes       | No (needs cilastatin) | Yes       |
+| Renal elimination | Yes       | Yes                   | Yes       |
+
+::: notes
 This table highlights why each agent fills a different clinical niche. Ertapenem's long half-life allows once-daily dosing (OPAT-friendly), but its high protein binding is a liability in hypoalbuminemia. Meropenem's low protein binding and good CSF penetration make it ideal for critically ill patients and CNS infections.
 :::
 
 ## Renal Dose Adjustment
 
+<br>
+
 - All carbapenems require dose reduction in renal impairment
 - **Critical for seizure prevention** (especially imipenem)
-- Ertapenem: no adjustment until CrCl <30 mL/min
+- Ertapenem: no adjustment until CrCl \<30 mL/min
 - Imipenem: reduce dose AND frequency as CrCl decreases
 - Meropenem: extend interval; consider extended infusion maintained
 
-::: {.notes}
+::: notes
 Under-dosing in renal impairment is actually less of a concern than over-dosing, because accumulation leads to seizures. Always check renal function before prescribing any carbapenem and adjust accordingly.
 :::
 
@@ -541,20 +608,24 @@ Under-dosing in renal impairment is actually less of a concern than over-dosing,
 
 ## Common Adverse Effects
 
-| Effect | Ertapenem | Imipenem | Meropenem |
-|---|---|---|---|
-| Diarrhea | ++ | ++ | ++ |
-| Nausea/vomiting | + | ++ | ++ |
-| Seizure | + | +++ | + |
-| Rash | + | ++ | + |
-| Transaminase elevation | + | ++ | + |
-| Headache | + | + | ++ |
+<br>
 
-::: {.notes}
+| Effect                 | Ertapenem | Imipenem | Meropenem |
+|------------------------|-----------|----------|-----------|
+| Diarrhea               | ++        | ++       | ++        |
+| Nausea/vomiting        | \+        | ++       | ++        |
+| Seizure                | \+        | +++      | \+        |
+| Rash                   | \+        | ++       | \+        |
+| Transaminase elevation | \+        | ++       | \+        |
+| Headache               | \+        | \+       | ++        |
+
+::: notes
 Imipenem consistently shows a higher adverse event profile, particularly for seizures and hypersensitivity reactions. This is one of several reasons meropenem has become the preferred carbapenem for most serious gram-negative infections.
 :::
 
 ## Valproic Acid Interaction
+
+<br>
 
 - **Class effect** — ALL carbapenems cause precipitous VPA decrease
 - Onset: within 24 hours of coadministration
@@ -563,14 +634,16 @@ Imipenem consistently shows a higher adverse event profile, particularly for sei
 - **Clinical recommendation:** avoid concomitant use; use alternative anticonvulsant or alternative antibiotic
 
 ::: aside
-Mori et al., *Drug Metab Rev*, 2007
+[@mori2007]
 :::
 
-::: {.notes}
+::: notes
 This is a critically important drug interaction. Increasing the valproic acid dose will NOT overcome this interaction — the effect is too profound. The only options are to switch the anticonvulsant (e.g., to levetiracetam) or switch the antibiotic. This should be flagged by pharmacy for every carbapenem order.
 :::
 
 ## β-Lactam Cross-Allergenicity
+
+<br>
 
 - Carbapenems share the β-lactam core with penicillins
 - Cross-reactivity rate: approximately **1%**
@@ -580,16 +653,18 @@ This is a critically important drug interaction. Increasing the valproic acid do
   - Exception: shares side chain with ceftazidime
 
 ::: aside
-Frumin & Gallagher, *Ann Pharmacother*, 2009
+[@frumin2009]
 :::
 
-::: {.notes}
+::: notes
 The 1% cross-reactivity rate is reassuring, but it's not zero. In practice, most patients labeled "penicillin allergic" can receive carbapenems safely. Skin testing can help clarify true allergy. Aztreonam is the safest β-lactam option for patients with verified severe penicillin allergy.
 :::
 
 # Clinical Applications
 
 ## Treatment Algorithm: Carbapenem Selection
+
+<br>
 
 - **Empiric/broad-spectrum:** Meropenem (extended infusion)
 - **Step-down/OPAT:** Ertapenem
@@ -599,11 +674,13 @@ The 1% cross-reactivity rate is reassuring, but it's not zero. In practice, most
 - **MBL producers:** Aztreonam + ceftazidime-avibactam
 - **Severe β-lactam allergy + GN coverage:** Aztreonam
 
-::: {.notes}
+::: notes
 This is the clinical decision framework to remember. Each agent has a specific niche based on its spectrum, pharmacokinetics, and the resistance mechanism involved. Knowing which carbapenem to reach for in each clinical scenario is the key practical takeaway from this lecture.
 :::
 
 ## ESBL-Producing Enterobacterales
+
+<br>
 
 - Carbapenems remain agents of choice for serious ESBL infections
 - **MERINO trial:** meropenem superior to piperacillin-tazobactam for ESBL bacteremia
@@ -611,14 +688,16 @@ This is the clinical decision framework to remember. Each agent has a specific n
 - Once-daily dosing facilitates OPAT transition
 
 ::: aside
-Harris et al., *JAMA*, 2018
+[@harris2018]
 :::
 
-::: {.notes}
+::: notes
 The MERINO trial was practice-changing. Before this trial, there was debate about whether pip-tazo could be used for definitive treatment of ESBL bacteremia. The trial showed a significant mortality difference favoring meropenem (12.3% vs 3.7%). This settled the debate and established carbapenems as the standard of care for ESBL bacteremia.
 :::
 
 ## KPC-Producing CRE: Preferred Agents
+
+<br>
 
 - **First-line:** Meropenem-vaborbactam (IDSA 2023 guidance)
 - **Alternative:** Ceftazidime-avibactam
@@ -627,14 +706,16 @@ The MERINO trial was practice-changing. Before this trial, there was debate abou
 - Imipenem-relebactam: less clinical data for KPC infections
 
 ::: aside
-Tamma et al., *Clin Infect Dis*, 2023; Shields et al., *Clin Infect Dis*, 2020
+[@tamma2023; @shields2020]
 :::
 
-::: {.notes}
+::: notes
 The IDSA guidance hierarchy is important: meropenem-vaborbactam is preferred over ceftazidime-avibactam for KPC-producers because resistance emergence to ceftazidime-avibactam has been documented. Shields et al. showed early clinical benefit with meropenem-vaborbactam for CRE bacteremia.
 :::
 
 ## Difficult-to-Treat *P. aeruginosa*
+
+<br>
 
 - DTR-PA: resistant to all traditional first-line agents
 - **Imipenem-relebactam:** key agent (relebactam inhibits AmpC → restores imipenem activity)
@@ -643,14 +724,16 @@ The IDSA guidance hierarchy is important: meropenem-vaborbactam is preferred ove
 - For MBL-producing *P. aeruginosa*: cefiderocol
 
 ::: aside
-Tamma et al., *Clin Infect Dis*, 2023; Reyes et al., *Lancet Microbe*, 2023
+[@tamma2023; @reyes2023]
 :::
 
-::: {.notes}
+::: notes
 Difficult-to-treat Pseudomonas is defined as resistant to piperacillin-tazobactam, ceftazidime, cefepime, aztreonam, meropenem, imipenem, ciprofloxacin, and levofloxacin. These are the most challenging infections in clinical practice. Knowing the resistance mechanism is essential for selecting the right agent.
 :::
 
 ## MBL-Producing Organisms
+
+<br>
 
 - No available BLI inhibits MBLs
 - **Aztreonam:** stable to MBL hydrolysis
@@ -660,10 +743,10 @@ Difficult-to-treat Pseudomonas is defined as resistant to piperacillin-tazobacta
 - Cefiderocol: alternative for MBL-producers
 
 ::: aside
-Ma et al., *Int J Antimicrob Agents*, 2022
+[@ma2022]
 :::
 
-::: {.notes}
+::: notes
 The aztreonam + ceftazidime-avibactam combination is one of the most elegant examples of rational combination therapy. Each drug covers the other's vulnerability. Aztreonam-avibactam as a single combination product is currently in development and may simplify this approach.
 :::
 
@@ -671,50 +754,57 @@ The aztreonam + ceftazidime-avibactam combination is one of the most elegant exa
 
 ## Aztreonam: Unique Monobactam
 
+<br>
+
 - Only clinically available monobactam
 - **Monocyclic** β-lactam ring (not bicyclic like other β-lactams)
 - Minimal cross-allergenicity with penicillins/cephalosporins/carbapenems
 - **Spectrum:** aerobic gram-negatives ONLY
 - No activity against gram-positives or anaerobes
 
-::: {.notes}
+::: notes
 Aztreonam's unique structure — a single ring rather than the fused bicyclic ring of other β-lactams — is why it doesn't cross-react with penicillin allergy. It's also why it has such a narrow spectrum. Think of aztreonam as an "injectable aminoglycoside alternative" in terms of its gram-negative focus.
 :::
 
 ## Aztreonam: Dosing and PK
+
+<br>
 
 - **Adult dose:** 2 g IV q8h (consider extended infusion over 3 hours)
 - **Pediatric dose:** 30 mg/kg IV q6–8h (max 120 mg/kg/day)
 - Higher doses for cystic fibrosis patients
 - Adverse effects: rash, diarrhea, transaminase elevation, neutropenia, phlebitis
 
-::: {.notes}
+::: notes
 Aztreonam is commonly used in cystic fibrosis patients for Pseudomonas coverage, where higher doses are often needed. The aerosolized formulation (Cayston) is also widely used in CF for chronic Pseudomonas suppression.
 :::
 
 ## Aztreonam: Clinical Niche
 
+<br>
+
 Two primary roles:
 
-1. **Severe β-lactam allergy** → safe alternative for gram-negative coverage
-   - Exception: shares side chain with ceftazidime (cross-reactivity possible)
+1.  **Severe β-lactam allergy** → safe alternative for gram-negative coverage
+    - Exception: shares side chain with ceftazidime (cross-reactivity possible)
+2.  **MBL-producing infections** → combined with ceftazidime-avibactam
+    - Stable to MBL hydrolysis
+    - Avibactam covers co-produced serine β-lactamases
 
-2. **MBL-producing infections** → combined with ceftazidime-avibactam
-   - Stable to MBL hydrolysis
-   - Avibactam covers co-produced serine β-lactamases
-
-::: {.notes}
+::: notes
 If a patient has anaphylaxis to penicillin and has a gram-negative infection requiring IV therapy, aztreonam is the answer. If a patient has an NDM-producing K. pneumoniae, the aztreonam + ceftazidime-avibactam combination is the answer. These two scenarios make aztreonam indispensable in the modern antimicrobial armamentarium.
 :::
 
 ## Aztreonam Side Chain Similarity
+
+<br>
 
 - Similar side chain to **ceftazidime** and **cefiderocol**
 - This side chain provides activity vs *P. aeruginosa*
 - Cross-allergenicity possible with ceftazidime (but not other cephalosporins)
 - Stability to MBLs is due to the monobactam ring, not the side chain
 
-::: {.notes}
+::: notes
 This is an important pharmacology point — the anti-Pseudomonal activity comes from the side chain (shared with ceftazidime), but the MBL stability comes from the ring structure. Understanding this helps explain why aztreonam works against MBL-producers while ceftazidime does not.
 :::
 
@@ -722,36 +812,42 @@ This is an important pharmacology point — the anti-Pseudomonal activity comes 
 
 ## Summary: Choosing the Right Carbapenem
 
-| Clinical Scenario | Preferred Agent |
-|---|---|
-| ESBL bacteremia | Meropenem |
-| ESBL step-down/OPAT | Ertapenem |
-| Mixed GN + *E. faecalis* | Imipenem |
-| KPC-producing CRE | Meropenem-vaborbactam |
-| DTR *P. aeruginosa* | Imipenem-relebactam |
-| MBL-producing CRE | Aztreonam + CAZ-AVI |
-| Severe β-lactam allergy | Aztreonam |
-| Meningitis | Meropenem |
-| Nocardiosis | Imipenem |
+<br>
 
-::: {.notes}
+| Clinical Scenario        | Preferred Agent       |
+|--------------------------|-----------------------|
+| ESBL bacteremia          | Meropenem             |
+| ESBL step-down/OPAT      | Ertapenem             |
+| Mixed GN + *E. faecalis* | Imipenem              |
+| KPC-producing CRE        | Meropenem-vaborbactam |
+| DTR *P. aeruginosa*      | Imipenem-relebactam   |
+| MBL-producing CRE        | Aztreonam + CAZ-AVI   |
+| Severe β-lactam allergy  | Aztreonam             |
+| Meningitis               | Meropenem             |
+| Nocardiosis              | Imipenem              |
+
+::: notes
 This summary table is the practical take-home. Each agent fills a specific niche. The choice depends on: (1) the pathogen suspected or confirmed, (2) the resistance mechanism, (3) the site of infection, and (4) patient factors like allergy, renal function, and albumin levels.
 :::
 
 ## Key Takeaways
 
-1. Carbapenems are **time-dependent killers** — optimize fT>MIC with extended infusions
-2. Ertapenem has a **narrow niche** (no Pseudomonas, no Acinetobacter, no Enterococcus)
-3. **Know the resistance mechanism** to choose the right agent
-4. KPC → meropenem-vaborbactam; DTR-PA → imipenem-relebactam; MBL → aztreonam + CAZ-AVI
-5. **Avoid carbapenems with VPA** — class-wide interaction
-6. Aztreonam is uniquely safe in **β-lactam allergy** and uniquely active against **MBL-producers**
+<br>
 
-::: {.notes}
+1.  Carbapenems are **time-dependent killers** — optimize fT\>MIC with extended infusions
+2.  Ertapenem has a **narrow niche** (no Pseudomonas, no Acinetobacter, no Enterococcus)
+3.  **Know the resistance mechanism** to choose the right agent
+4.  KPC → meropenem-vaborbactam; DTR-PA → imipenem-relebactam; MBL → aztreonam + CAZ-AVI
+5.  **Avoid carbapenems with VPA** — class-wide interaction
+6.  Aztreonam is uniquely safe in **β-lactam allergy** and uniquely active against **MBL-producers**
+
+::: notes
 These six points capture the essential clinical pharmacology of this chapter. If students remember these, they will be able to make rational carbapenem prescribing decisions in clinical practice.
 :::
 
 ## Class-Wide Reminders
+
+<br>
 
 - **ALL carbapenems:** reduce dose in renal impairment
 - **ALL carbapenems:** precipitous decrease in VPA levels
@@ -760,14 +856,16 @@ These six points capture the essential clinical pharmacology of this chapter. If
 - **ALL carbapenems (except ertapenem):** Pseudomonas activity
 - **Neither BLI:** covers MBLs or OXA-48
 
-::: {.notes}
+::: notes
 End the lecture by reinforcing what's common across the class vs. what differentiates each agent. The class-wide principles apply to every prescription; the agent-specific nuances guide which carbapenem to use.
 :::
 
 ## Questions?
 
+<br>
+
 Thank you!
 
-::: {.notes}
+::: notes
 Open the floor for questions. Common areas students ask about: when to use TDM for carbapenems, the role of cefiderocol as an alternative, and the practical aspects of extended infusion implementation.
 :::
