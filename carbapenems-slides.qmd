@@ -48,11 +48,7 @@ This lecture covers Chapter 22 from McCreary & Doi. We'll work through the pharm
 - The broad spectrum of carbapenems is directly linked to this structural stability
 
 ::: aside
-[@zhanel2007]
-:::
-
-::: aside
-The key structural feature is the trans-hydroxyethyl group at C6 — this is what makes carbapenems resistant to hydrolysis by most serine β-lactamases that easily destroy penicillins and cephalosporins.
+The key structural feature is the trans-hydroxyethyl group at C6 — this is what makes carbapenems resistant to hydrolysis by most serine β-lactamases that easily destroy penicillins and cephalosporins. [@zhanel2018]
 :::
 
 ## From Thienamycin to Clinical Agents
@@ -128,7 +124,7 @@ Four principal mechanisms:
 4.  **Altered PBP targets** (primarily gram-positives)
 
 ::: aside
-[@ma2022]
+Ma et al., *Int J Antimicrob Agents*, 2022
 :::
 
 ::: notes
@@ -144,7 +140,7 @@ In clinical practice, resistance is usually multifactorial — a single mechanis
 - **Class D (OXA-type):** Found frequently in *A. baumannii*; emerging in Enterobacterales
 
 ::: aside
-[@bush2020; @nordmann2011]
+Bush & Bradford, *Clin Microbiol Rev*, 2020; Nordmann et al., *Emerg Infect Dis*, 2011
 :::
 
 ::: notes
@@ -162,7 +158,7 @@ The Ambler classification is essential here. Class B (MBLs) are the most challen
 - **Not** inhibited by: clavulanic acid, tazobactam, sulbactam
 
 ::: aside
-[@nordmann2011]
+Nordmann et al., *Emerg Infect Dis*, 2011
 :::
 
 ::: notes
@@ -193,7 +189,7 @@ The key teaching point is: aztreonam is stable against MBLs due to its monobacta
 - Limited treatment options
 
 ::: aside
-[@nordmann2011]
+Nordmann et al., *Emerg Infect Dis*, 2011
 :::
 
 ::: notes
@@ -210,7 +206,7 @@ OXA-48-like enzymes are a particular concern in certain geographic regions, espe
 - OprD loss often occurs during therapy
 
 ::: aside
-[@trias1990; @kohler1999]
+Trias & Nikaido, *Antimicrob Agents Chemother*, 1990; Kohler et al., *Antimicrob Agents Chemother*, 1999
 :::
 
 ::: notes
@@ -227,7 +223,7 @@ This is a common clinical scenario — a patient on imipenem for Pseudomonas dev
 - Combined with OprD loss → high-level resistance to both agents
 
 ::: aside
-[@kohler1999; @masuda2000]
+Kohler et al., *Antimicrob Agents Chemother*, 1999; Masuda et al., *Antimicrob Agents Chemother*, 2000
 :::
 
 ::: notes
@@ -244,7 +240,7 @@ This is an interesting differential: imipenem resistance in Pseudomonas is drive
 - Contributes to resistance even without carbapenemase production
 
 ::: aside
-[@davies2011; @yigit2002]
+Davies et al., *J Antimicrob Chemother*, 2011; Yigit et al., *Antimicrob Agents Chemother*, 2002
 :::
 
 ::: notes
@@ -262,7 +258,7 @@ Non-carbapenemase-mediated resistance in Enterobacterales is increasingly recogn
 - 60%–80% of *E. faecium* strains are ampicillin-resistant
 
 ::: aside
-[@fuda2004; @weiner2020]
+Fuda et al., *J Biol Chem*, 2004; Weiner-Lastinger et al., *Infect Control Hosp Epidemiol*, 2020
 :::
 
 ::: notes
@@ -281,7 +277,7 @@ Carbapenems have NO role in treating MRSA or vancomycin-resistant E. faecium. PB
 - 2011: CLSI decreased carbapenem breakpoints fourfold
 
 ::: aside
-[@nordmann2011; @clsi2011]
+Nordmann et al., *Emerg Infect Dis*, 2011; CLSI, 2011
 :::
 
 ::: notes
@@ -310,7 +306,7 @@ This is the current state of the field — genotypic testing (molecular methods 
 <br>
 
 | Feature | Meropenem-Vaborbactam (Vabomere) | Imipenem-Relebactam (Recarbrio) |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Approval year | 2017 | 2019 |
 | BLI class | Cyclic boronic acid | Diazabicyclooctane |
 | Inhibits KPC | Yes (potently) | Yes |
@@ -319,7 +315,7 @@ This is the current state of the field — genotypic testing (molecular methods 
 | Inhibits OXA-48 | No | No |
 
 ::: aside
-[@zhanel2018]
+Zhanel et al., *Drugs*, 2018
 :::
 
 ::: notes
@@ -337,7 +333,7 @@ Both agents share the same gap — they don't cover metallo-β-lactamases or OXA
 - Dose adjustment based on MDRD formula
 
 ::: aside
-[@tamma2023; @shields2020]
+Tamma et al., *Clin Infect Dis*, 2023; Shields et al., *Clin Infect Dis*, 2020
 :::
 
 ::: notes
@@ -355,7 +351,7 @@ The TANGO trials established meropenem-vaborbactam for CRE infections. Shields e
 - Can also be used for KPC-producing CRE (less clinical data)
 
 ::: aside
-[@tamma2023; @reyes2023]
+Tamma et al., *Clin Infect Dis*, 2023; Reyes et al., *Lancet Microbe*, 2023
 :::
 
 ::: notes
@@ -372,7 +368,7 @@ The key concept: AmpC production plays a bigger role in resistance to imipenem v
 - 3-hour infusion for meropenem-vaborbactam optimizes both components
 
 ::: aside
-[@griffith2018; @mavridou2015]
+Griffith et al., *Antimicrob Agents Chemother*, 2018; Mavridou et al., *Antimicrob Agents Chemother*, 2015
 :::
 
 ::: notes
@@ -392,7 +388,7 @@ The PK/PD of BLIs is different from the parent β-lactam. For vaborbactam, you n
 - *E. faecium*: resistant to all carbapenems (PBP5)
 
 ::: aside
-[@fritsche2009; @jones2009]
+Fritsche et al., *Diagn Microbiol Infect Dis*, 2009; Jones et al., *Diagn Microbiol Infect Dis*, 2009
 :::
 
 ::: notes
@@ -436,7 +432,7 @@ Ertapenem has a critical gap in Pseudomonas coverage — this must be remembered
 - No carbapenem active against *Clostridioides difficile*
 
 ::: aside
-[@goldstein2002]
+Goldstein et al., *Antimicrob Agents Chemother*, 2002
 :::
 
 ::: notes
@@ -454,7 +450,7 @@ The strong anaerobic coverage of carbapenems is one reason they are used so effe
 - Mycobacteria: imipenem active against some NTM and *M. tuberculosis*
 
 ::: aside
-[@unemo2012; @cercenado2007]
+Unemo et al., *Antimicrob Agents Chemother*, 2012; Cercenado et al., *Antimicrob Agents Chemother*, 2007
 :::
 
 ::: notes
@@ -474,7 +470,7 @@ The activity of ertapenem against ceftriaxone-resistant N. gonorrhoeae is genera
 - Preferred for community-acquired polymicrobial infections
 
 ::: aside
-[@majumdar2002]
+Majumdar et al., *Antimicrob Agents Chemother*, 2002
 :::
 
 ::: notes
@@ -491,7 +487,7 @@ Ertapenem's niche is clear: it's the carbapenem for infections where you don't n
 - Consider alternative carbapenem or TDM in ICU patients with low albumin
 
 ::: aside
-[@zusman2015]
+Zusman et al., *Clin Microbiol Infect*, 2015
 :::
 
 ::: notes
@@ -509,7 +505,7 @@ The Zusman study showed increased mortality with ertapenem vs. other carbapenems
 - Decreased infusion stability vs. meropenem
 
 ::: aside
-[@drusano1986]
+Drusano, *J Antimicrob Chemother*, 1986
 :::
 
 ::: notes
@@ -527,7 +523,7 @@ Imipenem's drawbacks — frequent dosing, seizure risk, infusion instability —
 - Meropenem preferred when CNS infection or seizure risk exists
 
 ::: aside
-[@miller2011]
+Miller et al., *Pharmacother*, 2011
 :::
 
 ::: notes
@@ -546,7 +542,7 @@ The seizure risk is dose-related and can be mitigated by proper renal dose adjus
 - Can combine total daily dose in 2 bags, infuse each over 12 hours
 
 ::: aside
-[@moon1997]
+Moon et al., *Clin Infect Dis*, 1997
 :::
 
 ::: notes
@@ -564,7 +560,7 @@ Meropenem is the workhorse carbapenem for ICU settings. Its low protein binding 
 - Not stable for continuous infusion — use 2 bags over 12h each as alternative
 
 ::: aside
-[@nicolau2008; @abdulaziz2020]
+Nicolau, *Crit Care*, 2008; Abdul-Aziz et al., *Intensive Care Med*, 2020
 :::
 
 ::: notes
@@ -634,7 +630,7 @@ Imipenem consistently shows a higher adverse event profile, particularly for sei
 - **Clinical recommendation:** avoid concomitant use; use alternative anticonvulsant or alternative antibiotic
 
 ::: aside
-[@mori2007]
+Mori et al., *Drug Metab Rev*, 2007
 :::
 
 ::: notes
@@ -653,7 +649,7 @@ This is a critically important drug interaction. Increasing the valproic acid do
   - Exception: shares side chain with ceftazidime
 
 ::: aside
-[@frumin2009]
+Frumin & Gallagher, *Ann Pharmacother*, 2009
 :::
 
 ::: notes
@@ -688,7 +684,7 @@ This is the clinical decision framework to remember. Each agent has a specific n
 - Once-daily dosing facilitates OPAT transition
 
 ::: aside
-[@harris2018]
+Harris et al., *JAMA*, 2018
 :::
 
 ::: notes
@@ -706,7 +702,7 @@ The MERINO trial was practice-changing. Before this trial, there was debate abou
 - Imipenem-relebactam: less clinical data for KPC infections
 
 ::: aside
-[@tamma2023; @shields2020]
+Tamma et al., *Clin Infect Dis*, 2023; Shields et al., *Clin Infect Dis*, 2020
 :::
 
 ::: notes
@@ -724,7 +720,7 @@ The IDSA guidance hierarchy is important: meropenem-vaborbactam is preferred ove
 - For MBL-producing *P. aeruginosa*: cefiderocol
 
 ::: aside
-[@tamma2023; @reyes2023]
+Tamma et al., *Clin Infect Dis*, 2023; Reyes et al., *Lancet Microbe*, 2023
 :::
 
 ::: notes
@@ -743,7 +739,7 @@ Difficult-to-treat Pseudomonas is defined as resistant to piperacillin-tazobacta
 - Cefiderocol: alternative for MBL-producers
 
 ::: aside
-[@ma2022]
+Ma et al., *Int J Antimicrob Agents*, 2022
 :::
 
 ::: notes
