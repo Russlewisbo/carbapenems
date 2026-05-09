@@ -306,7 +306,7 @@ This is the current state of the field — genotypic testing (molecular methods 
 <br>
 
 | Feature | Meropenem-Vaborbactam (Vabomere) | Imipenem-Relebactam (Recarbrio) |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Approval year | 2017 | 2019 |
 | BLI class | Cyclic boronic acid | Diazabicyclooctane |
 | Inhibits KPC | Yes (potently) | Yes |
