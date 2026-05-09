@@ -1,29 +1,41 @@
 ---
 title: "Carbapenems, Carbapenem/β-Lactamase Inhibitor Combinations, and Aztreonam"
-author: "Russell E. Lewis, Pharm.D."
+author: "Russell E. Lewis"
 date: today
 format:
   revealjs:
-    theme: custom.scss
+    self-contained: true
+    spotlight: false
+    touch: true
+    controls: true
+    pointer: true
+    center-title-slide: false
+    transition-speed: fast
+    scrollable: true
     slide-number: true
-    transition: fade
-bibliography: references.bib
+    incremental: false
+    multiplex: false
+    chalkboard: false
+    theme: [custom.scss]
+lightbox: true
+bibliography: references-carbapenems.bib
 ---
 
-# Introduction to carbapenems {background-color="#b20e10"}
-
-## Chapter overview
+## Carbapenems, <br> Carbapenem/β-Lactamase Inhibitors, <br> and Azteonam {background-color="#b20e10"}
 
 <br>
 
-- Carbapenems: ertapenem, imipenem, meropenem
-- Carbapenem-BLI combinations: meropenem-vaborbactam, imipenem-relebactam
-- Monobactam: aztreonam
-- Chemistry, mechanism, resistance, PK/PD, clinical applications
+<br> <br>
 
-::: notes
-This lecture covers Chapter 22 from McCreary & Doi. We'll work through the pharmacology of each agent, then focus on resistance mechanisms and clinical decision-making. The carbapenem-BLI combinations are particularly important given the rise of carbapenem-resistant Enterobacterales globally.
-:::
+<center>
+
+**Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua
+
+<center>
+
+![](carbapenems-images/dmm_new.png){fig-align="center" width="350"}
+
+<br> {{< fa solid envelope size=1x >}} russelledward.lewis\@unipd.it <br> {{< fa brands github size=1x >}} [https://github.com/Russlewisbo](https://github.com/Russlewisbo/ESCMID_2022_talk) <br> Slides and course materials: [www.idpadova.com](https://padovaid.com/)
 
 ## Learning objectives
 
@@ -38,20 +50,20 @@ This lecture covers Chapter 22 from McCreary & Doi. We'll work through the pharm
 
 # Chemistry {background-color="#b20e10"}
 
-## Carbapenem Core Structure
+## Carbapenem core structure
 
-<br>
+![](carbapenems-images/structure.png){fig-align="center" width="300"}
 
 - Derivatives of thienamycin (*Streptomyces cattleya*)
 - Differ from penicillins: carbon replaces sulfur at position 1, double bond between C2 and C3
-- *Trans*-1α-hydroxyethyl side chain at C6 → stability against ESBLs and AmpC β-lactamases
+- ***Trans*****-1α-hydroxyethyl side chain at C6 → stability against ESBLs and AmpC β-lactamases**
 - The broad spectrum of carbapenems is directly linked to this structural stability
 
 ::: aside
-The key structural feature is the trans-hydroxyethyl group at C6 — this is what makes carbapenems resistant to hydrolysis by most serine β-lactamases that easily destroy penicillins and cephalosporins. [@zhanel2018]
+[@zhanel2018]
 :::
 
-## From Thienamycin to Clinical Agents
+## From thienamycin to clinical agents
 
 <br>
 
@@ -62,15 +74,13 @@ The key structural feature is the trans-hydroxyethyl group at C6 — this is wha
   - Stable to DHP-I → no cilastatin needed
 - **Doripenem:** available outside the US
 
-::: notes
-This is a critical distinction for clinical practice. Imipenem must always be given with cilastatin. If you see "imipenem" on an order, cilastatin is always included. Meropenem and ertapenem don't need this co-administration.
+::: aside
+Imipenem must always be given with cilastatin. If you see "imipenem" on an order, cilastatin is always included. Meropenem and ertapenem don't need this co-administration.
 :::
 
-<!-- IMAGE NEEDED: Figure 22.1 - Carbapenem core structure comparison showing R1/R2 substituents for thienamycin, imipenem, meropenem, ertapenem, doripenem -->
+# Mechanism of Action {background-color="#b20e10"}
 
-# Mechanism of Action
-
-## PBP Binding Profile
+## PBP binding profile
 
 <br>
 
@@ -79,9 +89,17 @@ This is a critical distinction for clinical practice. Imipenem must always be gi
 - Lesser binding to PBP3 (the main target of aminopenicillins and cephalosporins)
 - Multi-PBP binding → broad spectrum of activity
 
-::: notes
+::: aside
 The binding to PBP2 is particularly important — PBP2 is responsible for maintaining cell shape. Inhibition of PBP2 leads to the characteristic spheroplast formation seen with carbapenem exposure. This multi-target binding is part of why carbapenems maintain activity against organisms resistant to other β-lactams.
 :::
+
+## PBP binding resistance <br>
+
+## emerging problem of MDR pathogens
+
+<br>
+
+A 65-year-old man without identifiable risk factors for multidrug-resistant pathogens was admitted with peritonitis, isolating NDM-producing *Escherichia coli* from a rectal swab and intraoperative samples. After surgery, ceftazidime-avibactam/aztreonam was administered. Due to poor clinical response, he was switched to imipenem-relebactam/aztreonam, resulting in a successful outcome. Whole-genome sequencing detected *bla*NDM-5 and *bla*CMY-148 β-lactamases, PBP3 YRIN insertion, and mutated *cirA* gene. This case illustrates the importance of considering different mechanisms of resistance when choosing combination therapy.
 
 ## Outer Membrane Penetration
 
@@ -306,7 +324,7 @@ This is the current state of the field — genotypic testing (molecular methods 
 <br>
 
 | Feature | Meropenem-Vaborbactam (Vabomere) | Imipenem-Relebactam (Recarbrio) |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Approval year | 2017 | 2019 |
 | BLI class | Cyclic boronic acid | Diazabicyclooctane |
 | Inhibits KPC | Yes (potently) | Yes |
