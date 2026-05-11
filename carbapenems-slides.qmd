@@ -454,7 +454,7 @@ The PK/PD of BLIs is different from the parent β-lactam. For vaborbactam, you n
 
 # Antibacterial activity {background-color="#b20e10"}
 
-## MIC~90~ Comparison: Gram-Positive Cocci
+## MIC~90~ comparison: Gram-positive cocci
 
 <br>
 
@@ -474,7 +474,7 @@ Comparative Activity of Ertapenem, Imipenem, and Meropenem (MIC~90~, μg/mL)^a^
 | *Bacillus anthracis*               | —^b^      | 0.12      | 0.05      |
 | *Listeria monocytogenes*           | 0.25      | 0.06      | 0.12      |
 
-## MIC~90~ Comparison: Gram-Negative Cocci & Enterobacterales (1)
+## MIC~90~ Comparison: Gram-negative cocci & enterobacterales (1)
 
 <br>
 
@@ -492,7 +492,7 @@ Comparative Activity of Ertapenem, Imipenem, and Meropenem (MIC~90~, μg/mL)^a^
 | *Klebsiella oxytoca*               | 0.06      | 0.5      | 0.12      |
 | *Enterobacter cloacae*             | 0.06      | 0.5      | 0.12      |
 
-## MIC~90~ Comparison: Enterobacterales (2) & Non-Fermenters
+## MIC~90~ Comparison: Enterobacterales (2) & Non-fermenters
 
 <br>
 
@@ -509,7 +509,7 @@ Comparative Activity of Ertapenem, Imipenem, and Meropenem (MIC~90~, μg/mL)^a^
 | *Stenotrophomonas maltophilia*            | \>8       | \>8      | \>8        |
 | *Burkholderia cepacia*                    | \>8       | \>8      | 4          |
 
-## MIC~90~ Comparison: Anaerobes
+## MIC~90~ comparison: anaerobes
 
 <br>
 
@@ -607,7 +607,7 @@ The activity of ertapenem against ceftriaxone-resistant N. gonorrhoeae is genera
 
 # Individual Agent Profiles {background-color="#b20e10"}
 
-## Ertapenem: Key Features
+## Ertapenem: Key features
 
 <br>
 
@@ -875,7 +875,7 @@ The IDSA guidance hierarchy is important: meropenem-vaborbactam is preferred ove
 Difficult-to-treat Pseudomonas is defined as resistant to piperacillin-tazobactam, ceftazidime, cefepime, aztreonam, meropenem, imipenem, ciprofloxacin, and levofloxacin. These are the most challenging infections in clinical practice. Knowing the resistance mechanism is essential for selecting the right agent.
 :::
 
-## MBL-producing organisms {background-color="#b20e10"}
+## MBL-producing organisms 
 
 <br>
 
@@ -887,12 +887,14 @@ Difficult-to-treat Pseudomonas is defined as resistant to piperacillin-tazobacta
 - Cefiderocol: alternative for MBL-producers
 
 ::: aside
-@ma2022
+The aztreonam + ceftazidime-avibactam combination is one of the most elegant examples of rational combination therapy. Each drug covers the other's vulnerability. Aztreonam-avibactam as a single combination product is currently in development and may simplify this approach.
 :::
 
 ::: aside
-The aztreonam + ceftazidime-avibactam combination is one of the most elegant examples of rational combination therapy. Each drug covers the other's vulnerability. Aztreonam-avibactam as a single combination product is currently in development and may simplify this approach.
+@ma2022
 :::
+
+
 
 # Aztreonam {background-color="#b20e10"}
 
