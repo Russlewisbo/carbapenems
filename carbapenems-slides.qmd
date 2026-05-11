@@ -133,20 +133,24 @@ Four principal mechanisms:
 3.  **Efflux pump upregulation**
 4.  **Altered PBP targets** (primarily gram-positives)
 
-::: aside
-@ma2022
-:::
+<br> <br>
 
 ::: aside
 In clinical practice, resistance is usually multifactorial — a single mechanism rarely confers high-level resistance by itself. The combination of β-lactamase production with porin loss and/or efflux upregulation is the most common scenario for frank carbapenem resistance in gram-negatives.
+:::
+
+
+::: aside
+@ma2022
 :::
 
 ## β-Lactamase-mediated resistance
 
 <br>
 
-- **Class B (Metallo-β-lactamases/MBLs):** Zinc-dependent; hydrolyze ALL carbapenems; NO clinically available BLI inhibits them
 - **Class A (KPC carbapenemases):** Serine-based; *K. pneumoniae* carbapenemase is the most important globally
+- **Class B (Metallo-β-lactamases/MBLs):** Zinc-dependent; hydrolyze ALL carbapenems; NO clinically available BLI inhibits them
+
 - **Class D (OXA-type):** Found frequently in *A. baumannii*; emerging in Enterobacterales
 
 ::: aside
