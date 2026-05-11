@@ -962,6 +962,7 @@ If a patient has anaphylaxis to penicillin and has a gram-negative infection req
 - Cross-allergenicity possible with ceftazidime (but not other cephalosporins)
 - Stability to MBLs is due to the monobactam ring, not the side chain
 
+<br> <br>
 ::: aside
 The anti-Pseudomonal activity comes from the side chain (shared with ceftazidime), but the MBL stability comes from the ring structure. Understanding this helps explain why aztreonam works against MBL-producers while ceftazidime does not.
 :::
@@ -984,7 +985,7 @@ The anti-Pseudomonal activity comes from the side chain (shared with ceftazidime
 | Meningitis               | Meropenem             |
 | Nocardiosis              | Imipenem              |
 
-::: notes
+::: aside
 This summary table is the practical take-home. Each agent fills a specific niche. The choice depends on: (1) the pathogen suspected or confirmed, (2) the resistance mechanism, (3) the site of infection, and (4) patient factors like allergy, renal function, and albumin levels.
 :::
 
@@ -999,9 +1000,7 @@ This summary table is the practical take-home. Each agent fills a specific niche
 5.  **Avoid carbapenems with VPA** — class-wide interaction
 6.  Aztreonam is uniquely safe in **β-lactam allergy** and uniquely active against **MBL-producers**
 
-::: aside
-These six points capture the essential clinical pharmacology of this chapter. If students remember these, they will be able to make rational carbapenem prescribing decisions in clinical practice.
-:::
+
 
 ## Class-wide reminders
 
