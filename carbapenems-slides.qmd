@@ -301,6 +301,11 @@ Carbapenems have NO role in treating MRSA or vancomycin-resistant E. faecium. PB
 [@fabrizioOptimizingTargetInactivation2026]
 :::
 
+## PBP-mediated resistance
+
+<br>
+
+
 # Carbapenem-Resistant Enterobacterales
 
 ## CRE: A Growing Threat
