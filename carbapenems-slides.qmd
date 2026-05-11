@@ -122,7 +122,7 @@ This is a fundamental PK/PD concept for all β-lactams. For carbapenems specific
 
 # Resistance Mechanisms {background-color="#b20e10"}
 
-## Overview of Carbapenem Resistance
+## Overview of carbapenem resistance
 
 <br>
 
@@ -137,11 +137,11 @@ Four principal mechanisms:
 @ma2022
 :::
 
-::: notes
+::: aside
 In clinical practice, resistance is usually multifactorial — a single mechanism rarely confers high-level resistance by itself. The combination of β-lactamase production with porin loss and/or efflux upregulation is the most common scenario for frank carbapenem resistance in gram-negatives.
 :::
 
-## β-Lactamase-Mediated Resistance
+## β-Lactamase-mediated resistance
 
 <br>
 
@@ -153,11 +153,11 @@ In clinical practice, resistance is usually multifactorial — a single mechanis
 @bush2020; @nordmann2011
 :::
 
-::: notes
-The Ambler classification is essential here. Class B (MBLs) are the most challenging because no approved BLI works against them — this is where aztreonam combinations become critical. KPCs are inhibited by avibactam, vaborbactam, and relebactam, giving us treatment options.
+::: aside
+Class B (MBLs) are the most challenging because no approved BLI works against them — this is where aztreonam combinations become critical. KPCs are inhibited by avibactam, vaborbactam, and relebactam, giving us treatment options.
 :::
 
-## Class A Carbapenemases: KPC
+## Class A carbapenemases: KPC
 
 <br>
 
@@ -171,11 +171,11 @@ The Ambler classification is essential here. Class B (MBLs) are the most challen
 @nordmann2011
 :::
 
-::: notes
+::: aside
 KPC was first identified in North Carolina in 1996 and has since spread globally. It's plasmid-mediated, which facilitates rapid dissemination. The ability of newer BLIs like avibactam and vaborbactam to inhibit KPC has been transformative for treatment of these infections.
 :::
 
-## Class B: Metallo-β-Lactamases
+## Class B: Metallo-β-lactamases
 
 <br>
 
@@ -185,11 +185,11 @@ KPC was first identified in North Carolina in 1996 and has since spread globally
 -   Treatment strategy: aztreonam + ceftazidime-avibactam
 -   Intrinsic MBLs in *S. maltophilia*, *E. meningoseptica*
 
-::: notes
+::: aside
 The key teaching point is: aztreonam is stable against MBLs due to its monobactam structure. But aztreonam alone often fails because MBL-producers frequently co-produce other β-lactamases (like ESBLs or AmpC). The combination with ceftazidime-avibactam provides the avibactam to cover those other enzymes while aztreonam resists the MBL.
 :::
 
-## Class D: OXA-type Carbapenemases
+## Class D: OXA-type carbapenemases
 
 <br>
 
@@ -206,7 +206,7 @@ The key teaching point is: aztreonam is stable against MBLs due to its monobacta
 OXA-48-like enzymes are a particular concern in certain geographic regions, especially the Mediterranean, Middle East, and parts of India. They often produce only modest increases in carbapenem MICs, making detection difficult. Neither vaborbactam nor relebactam has meaningful activity against OXA-48.
 :::
 
-## Porin-Mediated Resistance in *P. aeruginosa*
+## Porin-mediated resistance in *P. aeruginosa*
 
 <br>
 
@@ -219,11 +219,11 @@ OXA-48-like enzymes are a particular concern in certain geographic regions, espe
 @trias1990; @kohler1999
 :::
 
-::: notes
+::: aside
 This is a common clinical scenario — a patient on imipenem for Pseudomonas develops resistance during treatment due to OprD downregulation. Meropenem may still retain activity in some cases because it uses alternative porins. This differential susceptibility is the basis for the recommendation to use meropenem rather than imipenem as empiric therapy for serious Pseudomonas infections.
 :::
 
-## Efflux-Mediated Resistance
+## Efflux-mediated resistance
 
 <br>
 
@@ -236,11 +236,11 @@ This is a common clinical scenario — a patient on imipenem for Pseudomonas dev
 @kohler1999; @masuda2000
 :::
 
-::: notes
+::: aside
 This is an interesting differential: imipenem resistance in Pseudomonas is driven by OprD loss, while meropenem resistance is driven by both OprD loss AND efflux upregulation. This is why you can sometimes see discordant susceptibility — resistant to imipenem but susceptible to meropenem, or vice versa.
 :::
 
-## Porin-Mediated Resistance in Enterobacterales
+## Porin-mediated resistance in enterobacterales
 
 <br>
 
@@ -253,11 +253,11 @@ This is an interesting differential: imipenem resistance in Pseudomonas is drive
 @davies2011; @yigit2002
 :::
 
-::: notes
+::: aside
 Non-carbapenemase-mediated resistance in Enterobacterales is increasingly recognized. These organisms may test "resistant" but are not true carbapenemase producers. Understanding this distinction matters for infection control (no need for the same aggressive isolation measures) and for treatment (these organisms may respond to carbapenem-BLI combinations or high-dose carbapenem therapy).
 :::
 
-## PBP-Mediated Resistance in Gram-Positives
+## PBP-mediated resistance in Gram-positives
 
 <br>
 
@@ -275,7 +275,7 @@ Non-carbapenemase-mediated resistance in Enterobacterales is increasingly recogn
 Carbapenems have NO role in treating MRSA or vancomycin-resistant E. faecium. PBP2a has such low affinity for all β-lactams, including carbapenems, that therapeutic concentrations cannot overcome resistance.
 :::
 
-## PBP binding resistance 
+## PBP binding resistance
 
 <br>
 
@@ -299,41 +299,65 @@ Carbapenems have NO role in treating MRSA or vancomycin-resistant E. faecium. PB
 [@fabrizioOptimizingTargetInactivation2026]
 :::
 
-## PBP-mediated resistance
+## PBP-mediated resistance in MDR strains
 
 <br>
 
--   First reported in 2015 in association with reduced aztreonam–avibactam suscepti bility, these insertions are increasingly identified in globally disseminated, high-risk E. coli lineages such as ST167, ST405, ST410, and ST648
+-   **PBP3 four-amino-acid insertions** (typically YRIN or YRIK between residues 333–334 in the β2b–β2c loop, adjacent to the transpeptidase active site) reduce susceptibility to PBP3-targeting β-lactams (aztreonam, cefepime, ceftazidime).
 
--   Four-amino-acid insertions in PBP3, most commonly YRIN or YRIK between residues 333 and 334 of the β2b–β2c loop adjacent to the transpeptidase active site, are associated with reduced susceptibility to multiple PBP3-targeting β-lactams, including aztreonam, cefepime, and ceftazidime
+-   First described in 2015 with reduced aztreonam–avibactam susceptibility, these insertions are now common in globally disseminated high-risk *E. coli* lineages (ST167, ST405, ST410, ST648), which frequently co-carry NDM metallo-β-lactamases plus CMY cephalosporinases or CTX-M ESBLs.
 
--   These lineages frequently co-produce NDM-group metallo-β-lactamases along with CMY-group cephalosporina ses or CTX-M-group extended-spectrum β-lactamases (ESBLs)
+-   Many β-lactams rely predominantly on PBP3 inhibition and are therefore vulnerable to these target alterations; **carbapenems, with broader PBP binding, are less affected — though carbapenem–β-lactamase inhibitor combinations differ in their behavior.**
 
--   Many widely used β-lactams derive activity predominantly from inhibition of PBP3, rendering them vulnerable to structural target alterations. **Carbapenems, in contrast, exhibit broader PBP binding profiles**
-
--   Not all carbapenem–β-lactamase inhibitor combinations behave similarly
-
--   Whole-genome sequencing is needed to rapidly identify uncommon resistance genotypes, including PBP3 insertions, and guide rational combination therapy.
+-   Whole-genome sequencing is needed to rapidly detect uncommon resistance genotypes such as PBP3 insertions and guide rational combination therapy.
 
 ::: aside
+[@stellfox2026]
 :::
 
-# Carbapenem-Resistant Enterobacterales
+# Carbapenem-Resistant Enterobacterales {background-color="#b20e10"}
 
-## CRE: A Growing Threat
+## CRE: A growing threat
 
-<br>
-
+::::: columns
+::: column
 -   Increasing incidence of CRE worldwide
 -   Multiple resistance mechanisms: carbapenemases, porin mutations, ESBL/AmpC + porin loss, efflux
 -   Detection challenges in routine diagnostic labs
 -   2011: CLSI decreased carbapenem breakpoints fourfold
+:::
+
+::: column
+```{r}
+#| label: fig-crkp-europe
+#| echo: false
+library(sf); library(rnaturalearth); library(leaflet); library(dplyr)
+
+ears <- readr::read_csv("ears_crkp_2024.csv")  # exported from ECDC Atlas
+eu <- ne_countries(continent = "Europe", returnclass = "sf") |>
+  left_join(ears, by = c("iso_a2" = "country_code"))
+
+pal <- colorBin("Reds", domain = eu$pct_R, bins = c(0,1,5,10,25,50,100))
+
+leaflet(eu) |>
+  setView(15, 50, zoom = 4) |>
+  addPolygons(fillColor = ~pal(pct_R), fillOpacity = 0.85,
+              weight = 0.5, color = "white",
+              label = ~sprintf("%s: %.1f%%", name, pct_R)) |>
+  addLegend("bottomright", pal = pal, values = ~pct_R,
+            title = "CRKP %, 2024")
+```
+
+:::
+:::::
+
+<br>
 
 ::: aside
 @nordmann2011; @clsi2011
 :::
 
-::: notes
+::: aside
 The 2011 CLSI breakpoint change was a landmark decision. By lowering breakpoints, previously "susceptible" isolates with resistance mechanisms were reclassified, allowing clinicians to avoid treatment failures. However, this created confusion in some settings where labs were slow to adopt the new breakpoints.
 :::
 
@@ -429,6 +453,77 @@ The PK/PD of BLIs is different from the parent β-lactam. For vaborbactam, you n
 :::
 
 # Antibacterial Activity
+
+## MIC~90~ Comparison: Gram-Positive Cocci {.smaller}
+
+<br>
+
+Comparative Activity of Ertapenem, Imipenem, and Meropenem (MIC~90~, μg/mL)^a^
+
+| Organism | Ertapenem | Imipenem | Meropenem |
+|---|---|---|---|
+| *S. aureus*, oxacillin-susceptible | 0.25 | 0.12 | 0.12 |
+| *S. aureus*, oxacillin-resistant | >16 | >16 | >16 |
+| CoNS, oxacillin-susceptible | 0.25 | 0.12 | 0.12 |
+| CoNS, oxacillin-resistant | >16 | >16 | >16 |
+| *Streptococcus pneumoniae* | 0.06–0.5 | 0.06–0.25 | 0.06–1 |
+| β-Hemolytic streptococci | 0.06 | 0.06 | 0.06 |
+| Viridans group streptococci | 0.12 | 0.03 | 0.03 |
+| *Enterococcus faecalis* | 8 | 1 | 8 |
+| *Enterococcus faecium* | >8 | >8 | >8 |
+| *Bacillus anthracis* | —^b^ | 0.12 | 0.05 |
+| *Listeria monocytogenes* | 0.25 | 0.06 | 0.12 |
+
+## MIC~90~ Comparison: Gram-Negative Cocci & Enterobacterales (1) {.smaller}
+
+<br>
+
+| Organism | Ertapenem | Imipenem | Meropenem |
+|---|---|---|---|
+| *Haemophilus influenzae* | 0.03 | 0.25 | 0.06 |
+| *Moraxella catarrhalis* | 0.03 | 0.25 | 0.03 |
+| *Neisseria gonorrhoeae* | 0.06 | 0.25 | 0.03 |
+| *Neisseria meningitidis* | 0.03 | 0.03 | 0.03 |
+| *Escherichia coli* | 0.06 | 0.5 | 0.03 |
+| *Escherichia coli*, ESBL-producing | 0.06 | 0.5 | 0.06 |
+| *Salmonella* spp. | 0.06 | ≤0.5 | 0.03 |
+| *Shigella* spp. | 0.06 | ≤0.5 | 0.03 |
+| *Klebsiella pneumoniae*^c^ | 0.12 | 0.5 | 0.12 |
+| *Klebsiella oxytoca* | 0.06 | 0.5 | 0.12 |
+| *Enterobacter cloacae* | 0.06 | 0.5 | 0.12 |
+
+## MIC~90~ Comparison: Enterobacterales (2) & Non-Fermenters {.smaller}
+
+<br>
+
+| Organism | Ertapenem | Imipenem | Meropenem |
+|---|---|---|---|
+| *Klebsiella* (*Enterobacter*) *aerogenes* | 0.06 | 0.5 | 0.12 |
+| *Morganella morganii* | 0.06 | 8 | 0.12 |
+| *Citrobacter* spp. | 0.06 | 0.5 | 0.12 |
+| *Serratia marcescens* | 0.06 | 0.5 | 0.12 |
+| *Proteus mirabilis* | 0.06 | 1 | 0.12 |
+| *Aeromonas* spp. | 0.25 | 0.5 | 0.12 |
+| *Pseudomonas aeruginosa*^c^ | >8 | 1 to >8 | 0.5 to >8 |
+| *Acinetobacter baumannii*^c^ | >8 | >8 | >8 |
+| *Stenotrophomonas maltophilia* | >8 | >8 | >8 |
+| *Burkholderia cepacia* | >8 | >8 | 4 |
+
+## MIC~90~ Comparison: Anaerobes {.smaller}
+
+<br>
+
+| Organism | Ertapenem | Imipenem | Meropenem |
+|---|---|---|---|
+| *Peptostreptococcus* spp. | 0.125 | 0.25 | 0.125 |
+| *Fusobacterium* spp. | 0.03 | 0.12 | 0.03 |
+| *Bacteroides fragilis* | 0.5 | 0.5 | 0.25 |
+| *Clostridium perfringens* | 0.06 | 0.5 | 0.06 |
+| *Clostridioides difficile* (formerly *Clostridium difficile*) | 4 | 2 | 2 |
+
+::: aside
+^a^ MIC values from Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. ^b^ No data. ^c^ Susceptibility varies widely; values shown represent typical range.
+:::
 
 ## Gram-Positive Activity
 
@@ -911,10 +1006,4 @@ End the lecture by reinforcing what's common across the class vs. what different
 
 ## Questions?
 
-<br>
-
-Thank you!
-
-::: notes
-Open the floor for questions. Common areas students ask about: when to use TDM for carbapenems, the role of cefiderocol as an alternative, and the practical aspects of extended infusion implementation.
-:::
+`<b`{=html}
