@@ -179,8 +179,6 @@ Class B (MBLs) are the most challenging because no approved BLI works against th
 :::
 
 ::: {.column width="50%"}
-
-
 :::
 :::::
 
@@ -400,7 +398,7 @@ This is the current state of the field — genotypic testing (molecular methods 
 <br>
 
 | Feature | Meropenem-Vaborbactam (Vabomere) | Imipenem-Relebactam (Recarbrio) |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Approval year | 2017 | 2019 |
 | BLI class | Cyclic boronic acid | Diazabicyclooctane |
 | Inhibits KPC | Yes (potently) | Yes |
@@ -514,7 +512,7 @@ Comparative Activity of Ertapenem, Imipenem, and Meropenem (MIC~90~, μg/mL)^a^
 <br>
 
 | Organism                                  | Ertapenem | Imipenem | Meropenem  |
-|-----------------------------|---------------|---------------|---------------|
+|-------------------------------------------|-----------|----------|------------|
 | *Klebsiella* (*Enterobacter*) *aerogenes* | 0.06      | 0.5      | 0.12       |
 | *Morganella morganii*                     | 0.06      | 8        | 0.12       |
 | *Citrobacter* spp.                        | 0.06      | 0.5      | 0.12       |
@@ -531,7 +529,7 @@ Comparative Activity of Ertapenem, Imipenem, and Meropenem (MIC~90~, μg/mL)^a^
 <br>
 
 | Organism | Ertapenem | Imipenem | Meropenem |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | *Peptostreptococcus* spp. | 0.125 | 0.25 | 0.125 |
 | *Fusobacterium* spp. | 0.03 | 0.12 | 0.03 |
 | *Bacteroides fragilis* | 0.5 | 0.5 | 0.25 |
