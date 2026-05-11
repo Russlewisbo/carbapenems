@@ -139,7 +139,6 @@ Four principal mechanisms:
 In clinical practice, resistance is usually multifactorial — a single mechanism rarely confers high-level resistance by itself. The combination of β-lactamase production with porin loss and/or efflux upregulation is the most common scenario for frank carbapenem resistance in gram-negatives.
 :::
 
-
 ::: aside
 @ma2022
 :::
@@ -149,6 +148,7 @@ In clinical practice, resistance is usually multifactorial — a single mechanis
 <br>
 
 - **Class A (KPC carbapenemases):** Serine-based; *K. pneumoniae* carbapenemase is the most important globally
+
 - **Class B (Metallo-β-lactamases/MBLs):** Zinc-dependent; hydrolyze ALL carbapenems; NO clinically available BLI inhibits them
 
 - **Class D (OXA-type):** Found frequently in *A. baumannii*; emerging in Enterobacterales
@@ -165,11 +165,24 @@ Class B (MBLs) are the most challenging because no approved BLI works against th
 
 <br>
 
+::::: columns
+::: {.column width="50%"}
 - *Klebsiella pneumoniae* carbapenemase (KPC)
+
 - Most important carbapenem resistance determinant worldwide
+
 - Predominantly in *K. pneumoniae*, but spreading to other species
+
 - Inhibited by: avibactam, vaborbactam, relebactam
+
 - **Not** inhibited by: clavulanic acid, tazobactam, sulbactam
+:::
+
+::: {.column width="50%"}
+
+
+:::
+:::::
 
 ::: aside
 @nordmann2011
@@ -333,9 +346,9 @@ Carbapenems have NO role in treating MRSA or vancomycin-resistant E. faecium. PB
 
 ::: column
 ```{r}
-#| label: fig-crkp-europe
+#| label: fig-crkp-europe-map
 #| echo: false
-#| eval: false
+#| eval: true
 library(sf); library(rnaturalearth); library(leaflet); library(dplyr)
 
 ears <- readr::read_csv("ears_crkp_2024.csv")  # exported from ECDC Atlas
@@ -501,7 +514,7 @@ Comparative Activity of Ertapenem, Imipenem, and Meropenem (MIC~90~, μg/mL)^a^
 <br>
 
 | Organism                                  | Ertapenem | Imipenem | Meropenem  |
-|----------------------------------|-------------|-------------|-------------|
+|-----------------------------|---------------|---------------|---------------|
 | *Klebsiella* (*Enterobacter*) *aerogenes* | 0.06      | 0.5      | 0.12       |
 | *Morganella morganii*                     | 0.06      | 8        | 0.12       |
 | *Citrobacter* spp.                        | 0.06      | 0.5      | 0.12       |
@@ -879,7 +892,7 @@ The IDSA guidance hierarchy is important: meropenem-vaborbactam is preferred ove
 Difficult-to-treat Pseudomonas is defined as resistant to piperacillin-tazobactam, ceftazidime, cefepime, aztreonam, meropenem, imipenem, ciprofloxacin, and levofloxacin. These are the most challenging infections in clinical practice. Knowing the resistance mechanism is essential for selecting the right agent.
 :::
 
-## MBL-producing organisms 
+## MBL-producing organisms
 
 <br>
 
@@ -897,8 +910,6 @@ The aztreonam + ceftazidime-avibactam combination is one of the most elegant exa
 ::: aside
 @ma2022
 :::
-
-
 
 # Aztreonam {background-color="#b20e10"}
 
@@ -963,6 +974,7 @@ If a patient has anaphylaxis to penicillin and has a gram-negative infection req
 - Stability to MBLs is due to the monobactam ring, not the side chain
 
 <br> <br>
+
 ::: aside
 The anti-Pseudomonal activity comes from the side chain (shared with ceftazidime), but the MBL stability comes from the ring structure. Understanding this helps explain why aztreonam works against MBL-producers while ceftazidime does not.
 :::
@@ -999,8 +1011,6 @@ This summary table is the practical take-home. Each agent fills a specific niche
 4.  KPC → meropenem-vaborbactam; DTR-PA → imipenem-relebactam; MBL → aztreonam + CAZ-AVI
 5.  **Avoid carbapenems with VPA** — class-wide interaction
 6.  Aztreonam is uniquely safe in **β-lactam allergy** and uniquely active against **MBL-producers**
-
-
 
 ## Class-wide reminders
 
