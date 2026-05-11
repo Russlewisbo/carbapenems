@@ -29,7 +29,7 @@ bibliography: references-carbapenems.bib
 
 <center>
 
-**Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br> Department of Molecular Medicine <br> University of Padua
+**Russell E. Lewis** <br> Associate Professor of Infectious Diseases <br>
 
 <center>
 
@@ -962,7 +962,7 @@ If a patient has anaphylaxis to penicillin and has a gram-negative infection req
 The anti-Pseudomonal activity comes from the side chain (shared with ceftazidime), but the MBL stability comes from the ring structure. Understanding this helps explain why aztreonam works against MBL-producers while ceftazidime does not.
 :::
 
-# Putting It All Together {background-color="#b20e10"}
+# Putting tt all together {background-color="#b20e10"}
 
 ## Summary: Choosing the right carbapenem
 
