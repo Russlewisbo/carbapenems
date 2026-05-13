@@ -398,7 +398,7 @@ This is the current state of the field — genotypic testing (molecular methods 
 <br>
 
 | Feature | Meropenem-Vaborbactam (Vabomere) | Imipenem-Relebactam (Recarbrio) |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Approval year | 2017 | 2019 |
 | BLI class | Cyclic boronic acid | Diazabicyclooctane |
 | Inhibits KPC | Yes (potently) | Yes |
@@ -512,7 +512,7 @@ Comparative Activity of Ertapenem, Imipenem, and Meropenem (MIC~90~, μg/mL)^a^
 <br>
 
 | Organism                                  | Ertapenem | Imipenem | Meropenem  |
-|-------------------------------------------|-----------|----------|------------|
+|----------------------------------|-------------|-------------|-------------|
 | *Klebsiella* (*Enterobacter*) *aerogenes* | 0.06      | 0.5      | 0.12       |
 | *Morganella morganii*                     | 0.06      | 8        | 0.12       |
 | *Citrobacter* spp.                        | 0.06      | 0.5      | 0.12       |
@@ -529,7 +529,7 @@ Comparative Activity of Ertapenem, Imipenem, and Meropenem (MIC~90~, μg/mL)^a^
 <br>
 
 | Organism | Ertapenem | Imipenem | Meropenem |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | *Peptostreptococcus* spp. | 0.125 | 0.25 | 0.125 |
 | *Fusobacterium* spp. | 0.03 | 0.12 | 0.03 |
 | *Bacteroides fragilis* | 0.5 | 0.5 | 0.25 |
@@ -997,6 +997,22 @@ The anti-Pseudomonal activity comes from the side chain (shared with ceftazidime
 
 ::: aside
 This summary table is the practical take-home. Each agent fills a specific niche. The choice depends on: (1) the pathogen suspected or confirmed, (2) the resistance mechanism, (3) the site of infection, and (4) patient factors like allergy, renal function, and albumin levels.
+:::
+
+## Dosing summary
+
+<br>
+
+| Drug | Adult Dose (Normal Renal Function) | Pediatric Dose (Normal Renal Function) | Package Insert Infusion Time | Stable as Extended (3h) Infusion |
+|---|---|---|---|---|
+| Imipenem-cilastatin | 0.5 g ^a^ IV q6h or 1 g IV q6–8h (increase to q6h for cystic fibrosis) | 60–100 mg/kg/day divided q6h (max 4 g/day) | 30 minutes | No |
+| Imipenem-cilastatin-relebactam | 1.25 g ^b^ IV q6h | Not established | 30 minutes | No |
+| Meropenem | 1–2 g IV q8h | 20–40 mg/kg q8h | 30 minutes | Yes |
+| Meropenem-vaborbactam | 4 g ^c^ IV q8h | Not established | 3 hours | Yes |
+| Ertapenem | 1 g IV q24h | 15 mg/kg/dose q12h | 30 minutes | Yes |
+
+::: aside
+*BLI*, β-Lactamase inhibitor. ^a^ Dose is imipenem component. ^b^ Dose is 500 mg imipenem + 500 mg cilastatin + 250 mg relebactam. ^c^ Dose is 2 g meropenem + 2 g vaborbactam.
 :::
 
 ## Key takeaways
